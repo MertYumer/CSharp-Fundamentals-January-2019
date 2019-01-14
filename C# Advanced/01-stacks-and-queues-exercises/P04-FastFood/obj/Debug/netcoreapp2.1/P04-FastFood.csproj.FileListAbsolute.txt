@@ -1,0 +1,10 @@
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues-exercises\P04-FastFood\bin\Debug\netcoreapp2.1\P04-FastFood.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues-exercises\P04-FastFood\bin\Debug\netcoreapp2.1\P04-FastFood.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues-exercises\P04-FastFood\bin\Debug\netcoreapp2.1\P04-FastFood.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues-exercises\P04-FastFood\bin\Debug\netcoreapp2.1\P04-FastFood.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues-exercises\P04-FastFood\bin\Debug\netcoreapp2.1\P04-FastFood.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues-exercises\P04-FastFood\obj\Debug\netcoreapp2.1\P04-FastFood.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues-exercises\P04-FastFood\obj\Debug\netcoreapp2.1\P04-FastFood.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues-exercises\P04-FastFood\obj\Debug\netcoreapp2.1\P04-FastFood.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues-exercises\P04-FastFood\obj\Debug\netcoreapp2.1\P04-FastFood.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues-exercises\P04-FastFood\obj\Debug\netcoreapp2.1\P04-FastFood.pdb

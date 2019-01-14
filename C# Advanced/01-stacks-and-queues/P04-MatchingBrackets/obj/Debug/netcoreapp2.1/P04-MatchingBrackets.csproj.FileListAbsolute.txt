@@ -1,0 +1,11 @@
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues\P04-MatchingBrackets\bin\Debug\netcoreapp2.1\P04-MatchingBrackets.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues\P04-MatchingBrackets\bin\Debug\netcoreapp2.1\P04-MatchingBrackets.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues\P04-MatchingBrackets\bin\Debug\netcoreapp2.1\P04-MatchingBrackets.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues\P04-MatchingBrackets\bin\Debug\netcoreapp2.1\P04-MatchingBrackets.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues\P04-MatchingBrackets\bin\Debug\netcoreapp2.1\P04-MatchingBrackets.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues\P04-MatchingBrackets\obj\Debug\netcoreapp2.1\P04-MatchingBrackets.csprojAssemblyReference.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues\P04-MatchingBrackets\obj\Debug\netcoreapp2.1\P04-MatchingBrackets.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues\P04-MatchingBrackets\obj\Debug\netcoreapp2.1\P04-MatchingBrackets.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues\P04-MatchingBrackets\obj\Debug\netcoreapp2.1\P04-MatchingBrackets.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues\P04-MatchingBrackets\obj\Debug\netcoreapp2.1\P04-MatchingBrackets.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues\P04-MatchingBrackets\obj\Debug\netcoreapp2.1\P04-MatchingBrackets.pdb
