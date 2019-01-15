@@ -8,3 +8,4 @@ D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues-exer
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues-exercises\P03-MaximumAndMinimumElement\obj\Debug\netcoreapp2.1\P03-MaximumAndMinimumElement.AssemblyInfo.cs
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues-exercises\P03-MaximumAndMinimumElement\obj\Debug\netcoreapp2.1\P03-MaximumAndMinimumElement.dll
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues-exercises\P03-MaximumAndMinimumElement\obj\Debug\netcoreapp2.1\P03-MaximumAndMinimumElement.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\01-stacks-and-queues-exercises\P03-MaximumAndMinimumElement\obj\Debug\netcoreapp2.1\P03-MaximumAndMinimumElement.csprojAssemblyReference.cache

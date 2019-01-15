@@ -47,21 +47,7 @@
                 }
             }
 
-            n = stack.Count;
-
-            for (int i = 0; i < n; i++)
-            {
-                if (i < n - 1)
-                {
-                    Console.Write(stack.Pop() + ", ");
-                }
-
-                else
-                {
-                    Console.Write(stack.Pop());
-                    Console.WriteLine();
-                }
-            }
+            Console.WriteLine(string.Join(", ", stack));
         }
     }
 }
