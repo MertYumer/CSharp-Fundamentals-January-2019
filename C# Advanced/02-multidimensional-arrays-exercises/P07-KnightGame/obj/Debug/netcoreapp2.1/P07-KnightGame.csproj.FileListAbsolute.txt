@@ -1,0 +1,11 @@
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\02-multidimensional-arrays-exercises\P07-KnightGame\bin\Debug\netcoreapp2.1\P07-KnightGame.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\02-multidimensional-arrays-exercises\P07-KnightGame\bin\Debug\netcoreapp2.1\P07-KnightGame.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\02-multidimensional-arrays-exercises\P07-KnightGame\bin\Debug\netcoreapp2.1\P07-KnightGame.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\02-multidimensional-arrays-exercises\P07-KnightGame\bin\Debug\netcoreapp2.1\P07-KnightGame.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\02-multidimensional-arrays-exercises\P07-KnightGame\bin\Debug\netcoreapp2.1\P07-KnightGame.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\02-multidimensional-arrays-exercises\P07-KnightGame\obj\Debug\netcoreapp2.1\P07-KnightGame.csprojAssemblyReference.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\02-multidimensional-arrays-exercises\P07-KnightGame\obj\Debug\netcoreapp2.1\P07-KnightGame.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\02-multidimensional-arrays-exercises\P07-KnightGame\obj\Debug\netcoreapp2.1\P07-KnightGame.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\02-multidimensional-arrays-exercises\P07-KnightGame\obj\Debug\netcoreapp2.1\P07-KnightGame.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\02-multidimensional-arrays-exercises\P07-KnightGame\obj\Debug\netcoreapp2.1\P07-KnightGame.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\02-multidimensional-arrays-exercises\P07-KnightGame\obj\Debug\netcoreapp2.1\P07-KnightGame.pdb

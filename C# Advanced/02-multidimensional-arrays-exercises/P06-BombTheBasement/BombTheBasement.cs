@@ -18,6 +18,7 @@
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
+
             int x = bombParameters[0];
             int y = bombParameters[1];
             int radius = bombParameters[2];

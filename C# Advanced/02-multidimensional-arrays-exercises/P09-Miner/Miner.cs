@@ -120,6 +120,7 @@
                             matrix[playerRow, playerCol] = '*';
                             playerCol -= 1;
                         }
+
                         break;
 
                     case "right":
@@ -146,6 +147,7 @@
                             matrix[playerRow, playerCol] = '*';
                             playerCol += 1;
                         }
+
                         break;
                 }
             }
