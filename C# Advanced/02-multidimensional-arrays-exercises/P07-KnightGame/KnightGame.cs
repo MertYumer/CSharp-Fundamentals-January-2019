@@ -1,8 +1,6 @@
 ﻿namespace P07_KnightGame
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
 
     public class KnightGame
     {
@@ -10,9 +8,6 @@
         {
             int n = int.Parse(Console.ReadLine());
             var matrix = new char[n, n];
-            var knights = new List<Knight>();
-            
-            int removedKnights = 0;
 
             for (int row = 0; row < n; row++)
             {
@@ -21,190 +16,122 @@
                 for (int col = 0; col < n; col++)
                 {
                     matrix[row, col] = elements[col];
-
-                    if (matrix[row, col] == 'K')
-                    {
-                        var knight = new Knight(row, col);
-                        knights.Add(knight);
-                    }
                 }
             }
 
-            for (int row = 0; row < n; row++)
-            {
-                for (int col = 0; col < n; col++)
-                {
-                    if (matrix[row, col] == 'K')
-                    {
-                        var knight = knights.FirstOrDefault(k => k.X == row && k.Y == col);
-
-                        if (row - 2 >= 0 && col - 1 >= 0)
-                        {
-                            if (matrix[row - 2, col - 1] == 'K')
-                            {
-                                knight.Attacks++;
-                            }
-                        }
-
-                        if (row - 2 >= 0 && col + 1 < n)
-                        {
-                            if (matrix[row - 2, col + 1] == 'K')
-                            {
-                                knight.Attacks++;
-                            }
-                        }
-
-                        if (row - 1 >= 0 && col - 2 >= 0)
-                        {
-                            if (matrix[row - 1, col - 2] == 'K')
-                            {
-                                knight.Attacks++;
-                            }
-                        }
-
-                        if (row - 1 >= 0 && col + 2 < n)
-                        {
-                            if (matrix[row - 1, col + 2] == 'K')
-                            {
-                                knight.Attacks++;
-                            }
-                        }
-
-                        if (row + 1 < n && col - 2 >= 0)
-                        {
-                            if (matrix[row + 1, col - 2] == 'K')
-                            {
-                                knight.Attacks++;
-                            }
-                        }
-
-                        if (row + 1 < n && col + 2 < n)
-                        {
-                            if (matrix[row + 1, col + 2] == 'K')
-                            {
-                                knight.Attacks++;
-                            }
-                        }
-
-                        if (row + 2 < n && col - 1 >= 0)
-                        {
-                            if (matrix[row + 2, col - 1] == 'K')
-                            {
-                                knight.Attacks++;
-                            }
-                        }
-
-                        if (row + 2 < n && col + 1 < n)
-                        {
-                            if (matrix[row + 2, col + 1] == 'K')
-                            {
-                                knight.Attacks++;
-                            }
-                        }
-                    }
-                }
-            }
+            int attackedKnightsCount = 0;
+            int maxAttackedKnightsCount = -1;
+            int knightRow = 0;
+            int knightCol = 0;
+            int count = 0;
 
             while (true)
             {
-                knights = knights.OrderByDescending(k => k.Attacks).ToList();
-                matrix[knights[0].X, knights[0].Y] = '0';
-                knights.RemoveAt(0);
-                removedKnights++;
-                bool possibleAttack = false;
-
-                foreach (var knight in knights)
+                for (int row = 0; row < n; row++)
                 {
-                    int row = knight.X;
-                    int col = knight.Y;
-
-                    if (row - 2 >= 0 && col - 1 >= 0)
+                    for (int col = 0; col < n; col++)
                     {
-                        if (matrix[row - 2, col - 1] == 'K')
+                        if (matrix[row, col] == 'K')
                         {
-                            possibleAttack = true;
-                        }
-                    }
+                            if (CheckCell(row - 2, col - 1, matrix))
+                            {
+                                if (matrix[row - 2, col - 1] == 'K')
+                                {
+                                    attackedKnightsCount++;
+                                }
+                            }
 
-                    if (row - 2 >= 0 && col + 1 < n)
-                    {
-                        if (matrix[row - 2, col + 1] == 'K')
-                        {
-                            possibleAttack = true;
-                        }
-                    }
+                            if (CheckCell(row - 2, col + 1, matrix))
+                            {
+                                if (matrix[row - 2, col + 1] == 'K')
+                                {
+                                    attackedKnightsCount++;
+                                }
+                            }
 
-                    if (row - 1 >= 0 && col - 2 >= 0)
-                    {
-                        if (matrix[row - 1, col - 2] == 'K')
-                        {
-                            possibleAttack = true;
-                        }
-                    }
+                            if (CheckCell(row - 1, col - 2, matrix))
+                            {
+                                if (matrix[row - 1, col - 2] == 'K')
+                                {
+                                    attackedKnightsCount++;
+                                }
+                            }
 
-                    if (row - 1 >= 0 && col + 2 < n)
-                    {
-                        if (matrix[row - 1, col + 2] == 'K')
-                        {
-                            possibleAttack = true;
-                        }
-                    }
+                            if (CheckCell(row - 1, col + 2, matrix))
+                            {
+                                if (matrix[row - 1, col + 2] == 'K')
+                                {
+                                    attackedKnightsCount++;
+                                }
+                            }
 
-                    if (row + 1 < n && col - 2 >= 0)
-                    {
-                        if (matrix[row + 1, col - 2] == 'K')
-                        {
-                            possibleAttack = true;
-                        }
-                    }
+                            if (CheckCell(row + 1, col - 2, matrix))
+                            {
+                                if (matrix[row + 1, col - 2] == 'K')
+                                {
+                                    attackedKnightsCount++;
+                                }
+                            }
 
-                    if (row + 1 < n && col + 2 < n)
-                    {
-                        if (matrix[row + 1, col + 2] == 'K')
-                        {
-                            possibleAttack = true;
-                        }
-                    }
+                            if (CheckCell(row + 1, col + 2, matrix))
+                            {
+                                if (matrix[row + 1, col + 2] == 'K')
+                                {
+                                    attackedKnightsCount++;
+                                }
+                            }
 
-                    if (row + 2 < n && col - 1 >= 0)
-                    {
-                        if (matrix[row + 2, col - 1] == 'K')
-                        {
-                            possibleAttack = true;
-                        }
-                    }
+                            if (CheckCell(row + 2, col - 1, matrix))
+                            {
+                                if (matrix[row + 2, col - 1] == 'K')
+                                {
+                                    attackedKnightsCount++;
+                                }
+                            }
 
-                    if (row + 2 < n && col + 1 < n)
-                    {
-                        if (matrix[row + 2, col + 1] == 'K')
-                        {
-                            possibleAttack = true;
+                            if (CheckCell(row + 2, col + 1, matrix))
+                            {
+                                if (matrix[row + 2, col + 1] == 'K')
+                                {
+                                    attackedKnightsCount++;
+                                }
+                            }
                         }
+
+                        if (attackedKnightsCount > maxAttackedKnightsCount)
+                        {
+                            maxAttackedKnightsCount = attackedKnightsCount;
+                            knightRow = row;
+                            knightCol = col;
+                        }
+
+                        attackedKnightsCount = 0;
                     }
                 }
 
-                if (!possibleAttack)
+                if (maxAttackedKnightsCount > 0)
                 {
-                    Console.WriteLine(removedKnights);
+                    matrix[knightRow, knightCol] = 'O';
+                    count++;
+                    maxAttackedKnightsCount = 0;
+                }
+
+                else
+                {
+                    Console.WriteLine(count);
                     return;
                 }
             }
         }
-    }
 
-    public class Knight
-    {
-        public int X { get; set; }
-
-        public int Y { get; set; }
-
-        public int Attacks { get; set; }
-
-        public Knight(int x, int y)
+        public static bool CheckCell(int row, int col, char[,] matrix)
         {
-            X = x;
-            Y = y;
-            Attacks = 0;
+            if (row >= 0 && row < matrix.GetLength(0) && col >= 0 && col < matrix.GetLength(1))
+            {
+                return true;
+            }
+
+            return false;
         }
     }
 }
