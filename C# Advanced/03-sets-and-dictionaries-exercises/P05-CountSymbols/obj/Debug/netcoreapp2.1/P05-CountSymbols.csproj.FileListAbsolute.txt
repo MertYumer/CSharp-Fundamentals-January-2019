@@ -1,0 +1,10 @@
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P05-CountSymbols\bin\Debug\netcoreapp2.1\P05-CountSymbols.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P05-CountSymbols\bin\Debug\netcoreapp2.1\P05-CountSymbols.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P05-CountSymbols\bin\Debug\netcoreapp2.1\P05-CountSymbols.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P05-CountSymbols\bin\Debug\netcoreapp2.1\P05-CountSymbols.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P05-CountSymbols\bin\Debug\netcoreapp2.1\P05-CountSymbols.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P05-CountSymbols\obj\Debug\netcoreapp2.1\P05-CountSymbols.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P05-CountSymbols\obj\Debug\netcoreapp2.1\P05-CountSymbols.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P05-CountSymbols\obj\Debug\netcoreapp2.1\P05-CountSymbols.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P05-CountSymbols\obj\Debug\netcoreapp2.1\P05-CountSymbols.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P05-CountSymbols\obj\Debug\netcoreapp2.1\P05-CountSymbols.pdb

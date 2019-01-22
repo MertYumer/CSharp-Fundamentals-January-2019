@@ -8,3 +8,4 @@ D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P02-SetsOfElements\obj\Debug\netcoreapp2.1\P02-SetsOfElements.AssemblyInfo.cs
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P02-SetsOfElements\obj\Debug\netcoreapp2.1\P02-SetsOfElements.dll
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P02-SetsOfElements\obj\Debug\netcoreapp2.1\P02-SetsOfElements.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P02-SetsOfElements\obj\Debug\netcoreapp2.1\P02-SetsOfElements.csprojAssemblyReference.cache

@@ -21,14 +21,10 @@
             for (int i = 0; i < setsLengths[1]; i++)
             {
                 int number = int.Parse(Console.ReadLine());
-
-                if (firstSet.Contains(number))
-                {
-                    secondSet.Add(number);
-                }
+                secondSet.Add(number);
             }
 
-            Console.WriteLine(string.Join(" ", secondSet));
+            Console.WriteLine(string.Join(" ", firstSet.Intersect(secondSet)));
         }
     }
 }
