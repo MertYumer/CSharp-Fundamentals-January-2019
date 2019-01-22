@@ -8,7 +8,7 @@
     {
         public static void Main()
         {
-            var symbols = new Dictionary<char, int>();
+            var symbols = new SortedDictionary<char, int>();
             var input = Console.ReadLine();
 
             for (int i = 0; i < input.Length; i++)
@@ -23,9 +23,7 @@
                 symbols[symbol]++;
             }
 
-            var result = symbols.OrderBy(s => (int)s.Key);
-
-            foreach (var symbol in result)
+            foreach (var symbol in symbols)
             {
                 Console.WriteLine($"{symbol.Key}: {symbol.Value} time/s");
             }

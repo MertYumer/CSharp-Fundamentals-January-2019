@@ -8,3 +8,4 @@ D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P05-CountSymbols\obj\Debug\netcoreapp2.1\P05-CountSymbols.AssemblyInfo.cs
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P05-CountSymbols\obj\Debug\netcoreapp2.1\P05-CountSymbols.dll
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P05-CountSymbols\obj\Debug\netcoreapp2.1\P05-CountSymbols.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\03-sets-and-dictionaries-exercises\P05-CountSymbols\obj\Debug\netcoreapp2.1\P05-CountSymbols.csprojAssemblyReference.cache
