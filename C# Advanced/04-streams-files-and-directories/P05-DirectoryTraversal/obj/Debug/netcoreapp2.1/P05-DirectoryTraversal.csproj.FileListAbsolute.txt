@@ -1,0 +1,10 @@
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\04-streams-files-and-directories\P05-DirectoryTraversal\bin\Debug\netcoreapp2.1\P05-DirectoryTraversal.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\04-streams-files-and-directories\P05-DirectoryTraversal\bin\Debug\netcoreapp2.1\P05-DirectoryTraversal.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\04-streams-files-and-directories\P05-DirectoryTraversal\bin\Debug\netcoreapp2.1\P05-DirectoryTraversal.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\04-streams-files-and-directories\P05-DirectoryTraversal\bin\Debug\netcoreapp2.1\P05-DirectoryTraversal.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\04-streams-files-and-directories\P05-DirectoryTraversal\bin\Debug\netcoreapp2.1\P05-DirectoryTraversal.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\04-streams-files-and-directories\P05-DirectoryTraversal\obj\Debug\netcoreapp2.1\P05-DirectoryTraversal.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\04-streams-files-and-directories\P05-DirectoryTraversal\obj\Debug\netcoreapp2.1\P05-DirectoryTraversal.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\04-streams-files-and-directories\P05-DirectoryTraversal\obj\Debug\netcoreapp2.1\P05-DirectoryTraversal.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\04-streams-files-and-directories\P05-DirectoryTraversal\obj\Debug\netcoreapp2.1\P05-DirectoryTraversal.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\04-streams-files-and-directories\P05-DirectoryTraversal\obj\Debug\netcoreapp2.1\P05-DirectoryTraversal.pdb
