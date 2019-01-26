@@ -1,4 +1,0 @@
-.cs
---DirectoryTraversal.cs - 0.032kb
-.csproj
---P05-DirectoryTraversal.csproj - 0.040kb

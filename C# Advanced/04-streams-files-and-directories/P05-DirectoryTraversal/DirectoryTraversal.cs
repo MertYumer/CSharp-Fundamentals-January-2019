@@ -9,45 +9,46 @@
     {
         public static void Main()
         {
-            var directoryInfo = new Dictionary<string, Dictionary<string, decimal>>();
-            string[] files = Directory.GetFiles("..//..//..//", "*.*", SearchOption.TopDirectoryOnly);
+            string path = Console.ReadLine();
+            string[] files = Directory.GetFiles(path);
+            var directoryInfo = new Dictionary<string, List<FileInfo>>();
 
-            foreach (string file in files)
+            foreach (var file in files)
             {
-                var currentFile = File.Open(file, FileMode.Open);
-
-                var fullName = Path.GetFileName(file);
-                var extension = Path.GetExtension(file);
-                var fileSize = Decimal.Divide(file.Length, 1024);
+                var fileInfo = new FileInfo(file);
+                var extension = fileInfo.Extension;
 
                 if (!directoryInfo.ContainsKey(extension))
                 {
-                    directoryInfo.Add(extension, new Dictionary<string, decimal>());
+                    directoryInfo.Add(extension, new List<FileInfo>());
                 }
 
-                if (!directoryInfo[extension].ContainsKey(fullName))
-                {
-                    directoryInfo[extension].Add(fullName, fileSize);
-                }
+                directoryInfo[extension].Add(fileInfo);
             }
-            string destinationPath = "..//..//..//..//Files//report.txt";
 
-            using (StreamWriter streamWriter = new StreamWriter(destinationPath))
+            string pathToDesktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\report.txt";
+
+            using (StreamWriter writer = new StreamWriter(pathToDesktop))
             {
                 var orderedInfo = directoryInfo
                 .OrderByDescending(f => f.Value.Count)
                 .ThenBy(f => f.Key);
 
-                foreach (var currentFile in orderedInfo)
+                foreach (var kvp in orderedInfo)
                 {
-                    streamWriter.WriteLine(currentFile.Key);
+                    var extension = kvp.Key;
+                    var info = kvp.Value;
 
-                    var orderedFiles = currentFile.Value
-                        .OrderBy(f => f.Value);
+                    writer.WriteLine(extension);
+
+                    var orderedFiles = info
+                        .OrderBy(f => f.Length);
 
                     foreach (var fileInfo in orderedFiles)
                     {
-                        streamWriter.WriteLine($"--{fileInfo.Key} - {fileInfo.Value:f3}kb");
+                        string name = fileInfo.Name;
+                        double size = fileInfo.Length / 1024;
+                        writer.WriteLine($"--{name} - {size:f3}kb");
                     }
                 }
             }

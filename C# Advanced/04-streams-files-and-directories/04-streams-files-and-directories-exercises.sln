@@ -5,13 +5,15 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01-EvenLines", "P01-EvenLines\P01-EvenLines.csproj", "{C0089482-DBD3-4838-BC16-28BEB8DF372A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02-LineNumbers", "P02-LineNumbers\P02-LineNumbers.csproj", "{6444663D-5CF7-45E7-8C57-E9B6E6C63D13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02-LineNumbers", "P02-LineNumbers\P02-LineNumbers.csproj", "{6444663D-5CF7-45E7-8C57-E9B6E6C63D13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03-WordCount", "P03-WordCount\P03-WordCount.csproj", "{CF24D72A-49FC-42D7-B586-72250D134894}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03-WordCount", "P03-WordCount\P03-WordCount.csproj", "{CF24D72A-49FC-42D7-B586-72250D134894}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04-CopyBinaryFile", "P04-CopyBinaryFile\P04-CopyBinaryFile.csproj", "{E9CE4D49-B022-45F7-A0FE-5B87E8DEECEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04-CopyBinaryFile", "P04-CopyBinaryFile\P04-CopyBinaryFile.csproj", "{E9CE4D49-B022-45F7-A0FE-5B87E8DEECEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05-DirectoryTraversal", "P05-DirectoryTraversal\P05-DirectoryTraversal.csproj", "{02B7B55F-B8DE-49F9-BF4E-554B418EDF82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05-DirectoryTraversal", "P05-DirectoryTraversal\P05-DirectoryTraversal.csproj", "{02B7B55F-B8DE-49F9-BF4E-554B418EDF82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06-FullDirectoryTraversal", "P06-FullDirectoryTraversal\P06-FullDirectoryTraversal.csproj", "{D76ED69F-D2C4-49FD-AD5E-478B4782A478}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{02B7B55F-B8DE-49F9-BF4E-554B418EDF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02B7B55F-B8DE-49F9-BF4E-554B418EDF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02B7B55F-B8DE-49F9-BF4E-554B418EDF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76ED69F-D2C4-49FD-AD5E-478B4782A478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76ED69F-D2C4-49FD-AD5E-478B4782A478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76ED69F-D2C4-49FD-AD5E-478B4782A478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76ED69F-D2C4-49FD-AD5E-478B4782A478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,3 +8,4 @@ D:\Projects\C# Fundamentals - January 2019\C# Advanced\04-streams-files-and-dire
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\04-streams-files-and-directories\P05-DirectoryTraversal\obj\Debug\netcoreapp2.1\P05-DirectoryTraversal.AssemblyInfo.cs
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\04-streams-files-and-directories\P05-DirectoryTraversal\obj\Debug\netcoreapp2.1\P05-DirectoryTraversal.dll
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\04-streams-files-and-directories\P05-DirectoryTraversal\obj\Debug\netcoreapp2.1\P05-DirectoryTraversal.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\04-streams-files-and-directories\P05-DirectoryTraversal\obj\Debug\netcoreapp2.1\P05-DirectoryTraversal.csprojAssemblyReference.cache
