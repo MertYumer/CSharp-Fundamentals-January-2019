@@ -1,0 +1,11 @@
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P02-KnightsOfHonor\bin\Debug\netcoreapp2.1\P02-KnightsOfHonor.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P02-KnightsOfHonor\bin\Debug\netcoreapp2.1\P02-KnightsOfHonor.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P02-KnightsOfHonor\bin\Debug\netcoreapp2.1\P02-KnightsOfHonor.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P02-KnightsOfHonor\bin\Debug\netcoreapp2.1\P02-KnightsOfHonor.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P02-KnightsOfHonor\bin\Debug\netcoreapp2.1\P02-KnightsOfHonor.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P02-KnightsOfHonor\obj\Debug\netcoreapp2.1\P02-KnightsOfHonor.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P02-KnightsOfHonor\obj\Debug\netcoreapp2.1\P02-KnightsOfHonor.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P02-KnightsOfHonor\obj\Debug\netcoreapp2.1\P02-KnightsOfHonor.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P02-KnightsOfHonor\obj\Debug\netcoreapp2.1\P02-KnightsOfHonor.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P02-KnightsOfHonor\obj\Debug\netcoreapp2.1\P02-KnightsOfHonor.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P02-KnightsOfHonor\obj\Debug\netcoreapp2.1\P02-KnightsOfHonor.csprojAssemblyReference.cache
