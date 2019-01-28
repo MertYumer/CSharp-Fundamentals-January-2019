@@ -8,7 +8,7 @@
         public static void Main()
         {
             int n = int.Parse(Console.ReadLine());
-            var people = new Dictionary<string, int>();
+            var people = new HashSet<Person>();
 
             for (int i = 0; i < n; i++)
             {
@@ -16,7 +16,8 @@
                 string name = input[0];
                 int age = int.Parse(input[1]);
 
-                people.Add(name, age);
+                var person = new Person(name, age);
+                people.Add(person);
             }
 
             string condition = Console.ReadLine();
@@ -24,11 +25,11 @@
             string format = Console.ReadLine();
 
             Func<int, bool> tester = CreateTester(condition, searchedAge);
-            Action<KeyValuePair<string, int>> printer = CreatePrinter(format);
+            Action<Person> printer = CreatePrinter(format);
 
             foreach (var person in people)
             {
-                if (tester(person.Value))
+                if (tester(person.Age))
                 {
                     printer(person);
                 }
@@ -50,22 +51,35 @@
             }
         }
 
-        public static Action<KeyValuePair<string, int>> CreatePrinter(string format)
+        public static Action<Person> CreatePrinter(string format)
         {
             switch (format)
             {
                 case "name":
-                    return person => Console.WriteLine($"{person.Key}");
+                    return person => Console.WriteLine($"{person.Name}");
 
                 case "age":
-                    return person => Console.WriteLine($"{person.Value}");
+                    return person => Console.WriteLine($"{person.Age}");
 
                 case "name age":
-                    return person => Console.WriteLine($"{person.Key} - {person.Value}");
+                    return person => Console.WriteLine($"{person.Name} - {person.Age}"); 
 
                 default:
                     return null;
             }
+        }
+    }
+
+    public class Person
+    {
+        public string Name { get; set; }
+
+        public int Age { get; set; }
+
+        public Person(string name, int age)
+        {
+            Name = name;
+            Age = age;
         }
     }
 }
