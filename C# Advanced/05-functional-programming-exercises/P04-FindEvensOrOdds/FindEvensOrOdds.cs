@@ -8,18 +8,23 @@
     {
         public static void Main()
         {
-            Predicate<int> isEven = n => n % 2 == 0;
-            int[] numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            int[] numbers = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToArray();
+
             string condition = Console.ReadLine();
+
+            Func<int, bool> filter = n => condition == "even" ? n % 2 == 0 : n % 2 != 0;
 
             var result = new List<int>();
 
-            Enumerable.Range(numbers[0], numbers[1] - numbers[0] + 1)
-                .Where(n => condition == "even" ? isEven(n) : !isEven(n))
-                .ToList()
-                .ForEach(result.Add);
+            for (int i = numbers[0]; i <= numbers[1]; i++)
+            {
+                result.Add(i);
+            }
 
-            Console.WriteLine(string.Join(" ", result));
+            Console.WriteLine(string.Join(" ", result.Where(filter)));
         }
     }
 }

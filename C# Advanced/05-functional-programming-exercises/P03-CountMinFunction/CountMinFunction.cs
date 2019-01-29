@@ -8,7 +8,12 @@
         public static void Main()
         {
             Func<int[], int> minNumber = n => n.Min();
-            int[] numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+            int[] numbers = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToArray();
+
             Console.WriteLine(minNumber(numbers));
         }
     }
