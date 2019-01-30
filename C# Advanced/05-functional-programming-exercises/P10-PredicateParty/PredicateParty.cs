@@ -31,9 +31,9 @@
 
                 string command = input[0];
                 string filterCommand = input[1];
-                string criteria = input[2];
+                string criterion = input[2];
 
-                predicate = GetPredicate(filterCommand, criteria);
+                predicate = GetPredicate(filterCommand, criterion);
 
                 switch (command)
                 {
@@ -55,18 +55,18 @@
             }
         }
 
-        public static Predicate<string> GetPredicate(string filterCommand, string criteria)
+        public static Predicate<string> GetPredicate(string filterCommand, string criterion)
         {
             switch (filterCommand)
             {
                 case "StartsWith":
-                    return p => p.StartsWith(criteria);
+                    return p => p.StartsWith(criterion);
 
                 case "EndsWith":
-                    return p => p.EndsWith(criteria);
+                    return p => p.EndsWith(criterion);
 
                 case "Length":
-                    return p => p.Length == int.Parse(criteria);
+                    return p => p.Length == int.Parse(criterion);
             }
 
             return null;

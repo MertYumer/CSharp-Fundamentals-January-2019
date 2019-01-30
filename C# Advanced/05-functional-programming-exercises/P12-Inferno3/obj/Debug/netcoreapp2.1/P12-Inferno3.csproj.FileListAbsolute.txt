@@ -1,0 +1,10 @@
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P12-Inferno3\bin\Debug\netcoreapp2.1\P12-Inferno3.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P12-Inferno3\bin\Debug\netcoreapp2.1\P12-Inferno3.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P12-Inferno3\bin\Debug\netcoreapp2.1\P12-Inferno3.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P12-Inferno3\bin\Debug\netcoreapp2.1\P12-Inferno3.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P12-Inferno3\bin\Debug\netcoreapp2.1\P12-Inferno3.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P12-Inferno3\obj\Debug\netcoreapp2.1\P12-Inferno3.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P12-Inferno3\obj\Debug\netcoreapp2.1\P12-Inferno3.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P12-Inferno3\obj\Debug\netcoreapp2.1\P12-Inferno3.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P12-Inferno3\obj\Debug\netcoreapp2.1\P12-Inferno3.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\05-functional-programming-exercises\P12-Inferno3\obj\Debug\netcoreapp2.1\P12-Inferno3.pdb

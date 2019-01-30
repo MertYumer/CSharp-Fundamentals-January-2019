@@ -21,11 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08-CustomComparator", "P08
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P09-ListOfPredicates", "P09-ListOfPredicates\P09-ListOfPredicates.csproj", "{36C7FC57-BE66-424E-B319-569C9B0506A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13-TriFunction", "P13-TriFunction\P13-TriFunction.csproj", "{EB90DF76-7F46-4589-B0CE-B613CF244DE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P13-TriFunction", "P13-TriFunction\P13-TriFunction.csproj", "{EB90DF76-7F46-4589-B0CE-B613CF244DE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10-PredicateParty", "P10-PredicateParty\P10-PredicateParty.csproj", "{C08A13D4-FA99-44B4-B99B-07A524E29CE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P10-PredicateParty", "P10-PredicateParty\P10-PredicateParty.csproj", "{C08A13D4-FA99-44B4-B99B-07A524E29CE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11-PartyReservationFilterModule", "P11-PartyReservationFilterModule\P11-PartyReservationFilterModule.csproj", "{8BE68E0C-D841-4FA3-B4C6-06E989508CD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P11-PartyReservationFilterModule", "P11-PartyReservationFilterModule\P11-PartyReservationFilterModule.csproj", "{8BE68E0C-D841-4FA3-B4C6-06E989508CD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12-Inferno3", "P12-Inferno3\P12-Inferno3.csproj", "{D818F903-4959-4DD2-9A0F-5685D985902A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{8BE68E0C-D841-4FA3-B4C6-06E989508CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BE68E0C-D841-4FA3-B4C6-06E989508CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BE68E0C-D841-4FA3-B4C6-06E989508CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D818F903-4959-4DD2-9A0F-5685D985902A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D818F903-4959-4DD2-9A0F-5685D985902A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D818F903-4959-4DD2-9A0F-5685D985902A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D818F903-4959-4DD2-9A0F-5685D985902A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
