@@ -1,0 +1,11 @@
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P07-SpeedRacing\bin\Debug\netcoreapp2.1\P07-SpeedRacing.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P07-SpeedRacing\bin\Debug\netcoreapp2.1\P07-SpeedRacing.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P07-SpeedRacing\bin\Debug\netcoreapp2.1\P07-SpeedRacing.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P07-SpeedRacing\bin\Debug\netcoreapp2.1\P07-SpeedRacing.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P07-SpeedRacing\bin\Debug\netcoreapp2.1\P07-SpeedRacing.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P07-SpeedRacing\obj\Debug\netcoreapp2.1\P07-SpeedRacing.csprojAssemblyReference.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P07-SpeedRacing\obj\Debug\netcoreapp2.1\P07-SpeedRacing.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P07-SpeedRacing\obj\Debug\netcoreapp2.1\P07-SpeedRacing.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P07-SpeedRacing\obj\Debug\netcoreapp2.1\P07-SpeedRacing.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P07-SpeedRacing\obj\Debug\netcoreapp2.1\P07-SpeedRacing.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P07-SpeedRacing\obj\Debug\netcoreapp2.1\P07-SpeedRacing.pdb
