@@ -1,0 +1,10 @@
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P10-CarsSalesman\bin\Debug\netcoreapp2.1\P10-CarSalesman.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P10-CarsSalesman\bin\Debug\netcoreapp2.1\P10-CarSalesman.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P10-CarsSalesman\bin\Debug\netcoreapp2.1\P10-CarSalesman.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P10-CarsSalesman\bin\Debug\netcoreapp2.1\P10-CarSalesman.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P10-CarsSalesman\bin\Debug\netcoreapp2.1\P10-CarSalesman.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P10-CarsSalesman\obj\Debug\netcoreapp2.1\P10-CarSalesman.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P10-CarsSalesman\obj\Debug\netcoreapp2.1\P10-CarSalesman.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P10-CarsSalesman\obj\Debug\netcoreapp2.1\P10-CarSalesman.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P10-CarsSalesman\obj\Debug\netcoreapp2.1\P10-CarSalesman.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P10-CarsSalesman\obj\Debug\netcoreapp2.1\P10-CarSalesman.pdb

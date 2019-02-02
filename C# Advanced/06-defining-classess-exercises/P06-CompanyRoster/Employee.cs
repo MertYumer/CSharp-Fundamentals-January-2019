@@ -26,7 +26,6 @@
             string email)
             : this(name, salary, position, department, email, -1)
         {
-
         }
 
         public Employee(
@@ -37,7 +36,6 @@
             int age)
             : this(name, salary, position, department, "n/a", age)
         {
-
         }
 
         public Employee(
@@ -47,7 +45,6 @@
             string department)
             : this(name, salary, position, department, "n/a", -1)
         {
-
         }
 
         public string Name { get; set; }

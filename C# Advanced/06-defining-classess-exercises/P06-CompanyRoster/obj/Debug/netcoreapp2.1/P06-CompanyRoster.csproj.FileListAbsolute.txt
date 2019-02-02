@@ -8,3 +8,4 @@ D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exer
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P06-CompanyRoster\obj\Debug\netcoreapp2.1\P06-CompanyRoster.AssemblyInfo.cs
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P06-CompanyRoster\obj\Debug\netcoreapp2.1\P06-CompanyRoster.dll
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P06-CompanyRoster\obj\Debug\netcoreapp2.1\P06-CompanyRoster.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P06-CompanyRoster\obj\Debug\netcoreapp2.1\P06-CompanyRoster.csprojAssemblyReference.cache

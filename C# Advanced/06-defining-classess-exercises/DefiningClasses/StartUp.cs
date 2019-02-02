@@ -8,34 +8,75 @@ namespace DefiningClasses
     {
         public static void Main()
         {
-            var input = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            var rectangles = new List<Rectangle>();
+            var people = new List<Person>();
+            var pairs = new List<string>();
 
-            for (int i = 0; i < input[0]; i++)
+            string searchedPerson = Console.ReadLine();
+
+            while (true)
             {
-                var rectangle = Console.ReadLine().Split();
-                string id = rectangle[0];
-                double width = double.Parse(rectangle[1]);
-                double height = double.Parse(rectangle[2]);
-                double x = double.Parse(rectangle[3]);
-                double y = double.Parse(rectangle[4]);
+                string pair = Console.ReadLine();
+                var input = pair
+                    .Split(" - ", StringSplitOptions.RemoveEmptyEntries);
 
-                var currentRectangle = new Rectangle(id, width, height, x, y);
-                rectangles.Add(currentRectangle);
+                if (input[0] == "End")
+                {
+                    break;
+                }
+
+                if (input.Length == 2)
+                {
+                    pairs.Add(pair);
+                }
+
+                else
+                {
+                    var personInfo = input[0].Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                    string name = personInfo[0] + " " + personInfo[1];
+                    string birthday = personInfo[2];
+                    var currentPerson = new Person(name, birthday);
+                    people.Add(currentPerson);
+                }
             }
 
-            for (int i = 0; i < input[1]; i++)
+            foreach (var pair in pairs)
             {
-                var pair = Console.ReadLine().Split();
+                var splittedPair = pair
+                    .Split(" - " , StringSplitOptions.RemoveEmptyEntries);
 
-                var firstRectangle = rectangles
-                    .Find(r => r.Id == pair[0]);
+                string parentInfo = splittedPair[0];
+                string childInfo = splittedPair[1];
 
-                var secondRectangle = rectangles
-                    .Find(r => r.Id == pair[1]);
-                    
-                firstRectangle.CheckIntersection(secondRectangle);
+                int parentIndex = people
+                    .FindIndex(p => p.Name == parentInfo
+                    || p.Birthday == parentInfo);
+
+                int childIndex = people
+                    .FindIndex(p => p.Name == childInfo
+                    || p.Birthday == childInfo);
+
+                var parent = new Person(people[parentIndex].Name,
+                    people[parentIndex].Birthday);
+
+                var child = new Person(people[childIndex].Name,
+                    people[childIndex].Birthday);
+
+                if (!people[parentIndex].Children.Any(c => c.Name == child.Name))
+                {
+                    people[parentIndex].Children.Add(child);
+                }
+
+                if (!people[childIndex].Parents.Any(p => p.Name == parent.Name))
+                {
+                    people[childIndex].Parents.Add(parent);
+                }
             }
+
+            var person = people
+                .First(p => p.Name == searchedPerson 
+                || p.Birthday == searchedPerson);
+
+            Console.WriteLine(string.Join(Environment.NewLine, person));
         }
     }
 }
