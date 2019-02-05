@@ -1,0 +1,11 @@
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\workshop-exercise\workshop-exercise\bin\Debug\netcoreapp2.1\workshop-exercise.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\workshop-exercise\workshop-exercise\bin\Debug\netcoreapp2.1\workshop-exercise.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\workshop-exercise\workshop-exercise\bin\Debug\netcoreapp2.1\workshop-exercise.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\workshop-exercise\workshop-exercise\bin\Debug\netcoreapp2.1\workshop-exercise.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\workshop-exercise\workshop-exercise\bin\Debug\netcoreapp2.1\workshop-exercise.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\workshop-exercise\workshop-exercise\obj\Debug\netcoreapp2.1\workshop-exercise.csprojAssemblyReference.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\workshop-exercise\workshop-exercise\obj\Debug\netcoreapp2.1\workshop-exercise.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\workshop-exercise\workshop-exercise\obj\Debug\netcoreapp2.1\workshop-exercise.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\workshop-exercise\workshop-exercise\obj\Debug\netcoreapp2.1\workshop-exercise.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\workshop-exercise\workshop-exercise\obj\Debug\netcoreapp2.1\workshop-exercise.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\workshop-exercise\workshop-exercise\obj\Debug\netcoreapp2.1\workshop-exercise.pdb
