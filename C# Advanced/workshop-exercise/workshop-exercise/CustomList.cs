@@ -4,53 +4,57 @@
 
     public class CustomList
     {
-        private const int InitialCapacity = 2;
-
-        private int[] items;
+        private object[] items;
+        private int capacity;
 
         public CustomList()
         {
-            this.items = new int[InitialCapacity];
+            this.items = new object[0];
+            this.Count = 0;
+        }
+
+        public object[] Items
+        {
+            get { return this.GetElements(); }
         }
 
         public int Count { get; private set; }
 
-        public int this[int index]
+        public int Capacity
         {
-            get
-            {
-                if (index >= this.Count)
-                {
-                    throw new ArgumentOutOfRangeException();
-                }
-
-                return items[index];
-            }
-
-            set
-            {
-                if (index >= this.Count)
-                {
-                    throw new ArgumentOutOfRangeException();
-                }
-
-                items[index] = value;
-            }
+            get { return this.capacity; }
+            set { this.capacity = value; }
         }
 
-        public void Resize()
+        private void Resize()
         {
-            int[] secondArray = new int[this.items.Length * 2];
+            this.Capacity = this.items.Length * 2 == 0
+                ? 4
+                : this.items.Length * 2;
 
-            for (int i = 0; i < this.items.Length; i++)
+            object[] tempArray = new object[this.Capacity];
+
+            for (int i = 0; i < this.Count; i++)
             {
-                secondArray[i] = this.items[i];
+                tempArray[i] = this.items[i];
             }
 
-            this.items = secondArray;
+            this.items = tempArray;
         }
 
-        public void Add(int item)
+        private object[] GetElements()
+        {
+            object[] tempArray = new object[this.Count];
+
+            for (int i = 0; i < this.Count; i++)
+            {
+                tempArray[i] = this.items[i];
+            }
+
+            return tempArray;
+        }
+
+        public void Add(object item)
         {
             if (this.Count == this.items.Length)
             {
@@ -61,17 +65,18 @@
             this.Count++;
         }
 
-        public int RemoveAt(int index)
+        public object RemoveAt(int index)
         {
             if (index < 0 || index >= this.Count)
             {
                 throw new ArgumentOutOfRangeException();
             }
 
-            int item = this.items[index];
-            this.items[index] = default(int);
+            object item = this.items[index];
+            this.items[index] = default(object);
             this.Shift(index);
             this.Count--;
+            this.items[this.Count] = null;
 
             if (this.Count <= this.items.Length / 4)
             {
@@ -91,7 +96,7 @@
 
         private void Shrink()
         {
-            int[] secondArray = new int[this.items.Length / 2];
+            object[] secondArray = new object[this.items.Length / 2];
 
             for (int i = 0; i < this.Count; i++)
             {
@@ -101,9 +106,9 @@
             this.items = secondArray;
         }
 
-        public void Insert(int index, int item)
+        public void Insert(int index, object item)
         {
-            if (index > this.Count)
+            if (index < 0 || index > this.Count)
             {
                 throw new IndexOutOfRangeException();
             }
@@ -126,19 +131,17 @@
             }
         }
 
-        public bool Contains(int item)
+        public bool Contains(object item)
         {
-            bool containsItem = false;
-
             for (int i = 0; i < this.Count; i++)
             {
-                if (this.items[i] == item)
+                if (item.Equals(this.items[i]))
                 {
-                    containsItem = true;
+                    return true;
                 }
             }
 
-            return containsItem;
+            return false;
         }
 
         public void Swap(int firstIndex, int secondIndex)
@@ -149,7 +152,7 @@
                 throw new ArgumentOutOfRangeException();
             }
 
-            int tempItem = this.items[firstIndex];
+            object tempItem = this.items[firstIndex];
             this.items[firstIndex] = this.items[secondIndex];
             this.items[secondIndex] = tempItem;
         }
