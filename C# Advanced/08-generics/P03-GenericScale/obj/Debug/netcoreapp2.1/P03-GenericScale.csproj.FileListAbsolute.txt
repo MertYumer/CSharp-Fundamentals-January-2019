@@ -8,3 +8,4 @@ D:\Projects\C# Fundamentals - January 2019\C# Advanced\08-generics\P03-GenericSc
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\08-generics\P03-GenericScale\obj\Debug\netcoreapp2.1\P03-GenericScale.AssemblyInfo.cs
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\08-generics\P03-GenericScale\obj\Debug\netcoreapp2.1\P03-GenericScale.dll
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\08-generics\P03-GenericScale\obj\Debug\netcoreapp2.1\P03-GenericScale.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\08-generics\P03-GenericScale\obj\Debug\netcoreapp2.1\P03-GenericScale.csprojAssemblyReference.cache
