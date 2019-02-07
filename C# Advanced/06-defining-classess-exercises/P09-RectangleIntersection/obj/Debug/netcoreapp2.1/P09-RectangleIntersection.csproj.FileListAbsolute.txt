@@ -8,3 +8,4 @@ D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exer
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P09-RectangleIntersection\bin\Debug\netcoreapp2.1\P09-RectangleIntersection.pdb
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P09-RectangleIntersection\obj\Debug\netcoreapp2.1\P09-RectangleIntersection.dll
 D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P09-RectangleIntersection\obj\Debug\netcoreapp2.1\P09-RectangleIntersection.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\06-defining-classess-exercises\P09-RectangleIntersection\obj\Debug\netcoreapp2.1\P09-RectangleIntersection.csprojAssemblyReference.cache
