@@ -51,8 +51,8 @@
             else
             {
                 var newTail = new ListNode(element);
-                newTail.NextNode = this.tail;
                 this.tail.PreviousNode = newTail;
+                newTail.NextNode = this.tail;
                 this.tail = newTail;
             }
 
