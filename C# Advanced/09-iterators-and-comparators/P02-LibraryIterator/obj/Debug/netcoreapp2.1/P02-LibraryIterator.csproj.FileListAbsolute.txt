@@ -1,0 +1,10 @@
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\09-iterators-and-comparators\P02-LibraryIterator\bin\Debug\netcoreapp2.1\P02-LibraryIterator.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\09-iterators-and-comparators\P02-LibraryIterator\bin\Debug\netcoreapp2.1\P02-LibraryIterator.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\09-iterators-and-comparators\P02-LibraryIterator\bin\Debug\netcoreapp2.1\P02-LibraryIterator.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\09-iterators-and-comparators\P02-LibraryIterator\bin\Debug\netcoreapp2.1\P02-LibraryIterator.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\09-iterators-and-comparators\P02-LibraryIterator\bin\Debug\netcoreapp2.1\P02-LibraryIterator.pdb
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\09-iterators-and-comparators\P02-LibraryIterator\obj\Debug\netcoreapp2.1\P02-LibraryIterator.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\09-iterators-and-comparators\P02-LibraryIterator\obj\Debug\netcoreapp2.1\P02-LibraryIterator.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\09-iterators-and-comparators\P02-LibraryIterator\obj\Debug\netcoreapp2.1\P02-LibraryIterator.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\09-iterators-and-comparators\P02-LibraryIterator\obj\Debug\netcoreapp2.1\P02-LibraryIterator.dll
+D:\Projects\C# Fundamentals - January 2019\C# Advanced\09-iterators-and-comparators\P02-LibraryIterator\obj\Debug\netcoreapp2.1\P02-LibraryIterator.pdb
