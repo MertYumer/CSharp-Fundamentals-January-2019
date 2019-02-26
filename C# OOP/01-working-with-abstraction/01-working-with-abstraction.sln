@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01-RhombusOfStars", "P01-RhombusOfStars\P01-RhombusOfStars.csproj", "{3259D639-07AF-4520-BC7D-CF516A369017}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01-RhombusOfStars", "P01-RhombusOfStars\P01-RhombusOfStars.csproj", "{3259D639-07AF-4520-BC7D-CF516A369017}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02-PointInRectangle", "P02-PointInRectangle\P02-PointInRectangle.csproj", "{AE0EFA98-DDFB-4147-A6A8-F0AC95AACC9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02-PointInRectangle", "P02-PointInRectangle\P02-PointInRectangle.csproj", "{AE0EFA98-DDFB-4147-A6A8-F0AC95AACC9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03-StudentSystem", "P03-StudentSystem\P03-StudentSystem.csproj", "{935B7EDA-DCA0-4875-BF22-EDD479113E52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04-HotelReservation", "P04-HotelReservation\P04-HotelReservation.csproj", "{8D242ED1-D539-4652-96C5-B99334993D48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{AE0EFA98-DDFB-4147-A6A8-F0AC95AACC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE0EFA98-DDFB-4147-A6A8-F0AC95AACC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE0EFA98-DDFB-4147-A6A8-F0AC95AACC9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{935B7EDA-DCA0-4875-BF22-EDD479113E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935B7EDA-DCA0-4875-BF22-EDD479113E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935B7EDA-DCA0-4875-BF22-EDD479113E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{935B7EDA-DCA0-4875-BF22-EDD479113E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D242ED1-D539-4652-96C5-B99334993D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D242ED1-D539-4652-96C5-B99334993D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D242ED1-D539-4652-96C5-B99334993D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D242ED1-D539-4652-96C5-B99334993D48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

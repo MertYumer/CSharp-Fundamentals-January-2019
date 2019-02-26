@@ -1,0 +1,10 @@
+D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P07-FamilyTree\bin\Debug\netcoreapp2.1\P07-FamilyTree.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P07-FamilyTree\bin\Debug\netcoreapp2.1\P07-FamilyTree.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P07-FamilyTree\bin\Debug\netcoreapp2.1\P07-FamilyTree.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P07-FamilyTree\bin\Debug\netcoreapp2.1\P07-FamilyTree.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P07-FamilyTree\bin\Debug\netcoreapp2.1\P07-FamilyTree.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P07-FamilyTree\obj\Debug\netcoreapp2.1\P07-FamilyTree.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P07-FamilyTree\obj\Debug\netcoreapp2.1\P07-FamilyTree.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P07-FamilyTree\obj\Debug\netcoreapp2.1\P07-FamilyTree.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P07-FamilyTree\obj\Debug\netcoreapp2.1\P07-FamilyTree.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P07-FamilyTree\obj\Debug\netcoreapp2.1\P07-FamilyTree.pdb
