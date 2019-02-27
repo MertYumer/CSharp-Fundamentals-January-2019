@@ -6,10 +6,13 @@
 
     public class Hospital
     {
+        public static List<Department> departments;
+        public static List<Doctor> doctors;
+
         public static void Main()
         {
-            var doctors = new Dictionary<string, List<string>>();
-            var departments = new Dictionary<string, List<string>>();
+            departments = new List<Department>();
+            doctors = new List<Doctor>();
 
             while (true)
             {
@@ -21,12 +24,23 @@
                     break;
                 }
 
-                var department = input[0];
-                var name = input[1] + ' ' + input[2];
+                var departmentName = input[0];
+                var doctorName = input[1] + ' ' + input[2];
                 var patient = input[3];
 
-                AddPatient(doctors, name, patient);
-                AddPatient(departments, department, patient);
+                Department department = GetDepartment(departmentName);
+                Doctor doctor = GetDoctor(doctorName);
+                bool hasFreeSpace = department.Rooms.Sum(r => r.Patients.Count) < 60;
+
+                for (int room = 0; room < department.Rooms.Count; room++)
+                {
+                    if (department.Rooms[room].Patients.Count < 3)
+                    {
+                        department.Rooms[room].Patients.Add(patient);
+                        doctor.Patients.Add(patient);
+                        break;
+                    }
+                }
             }
 
             while (true)
@@ -41,36 +55,38 @@
 
                 else if (command.Length == 1)
                 {
-                    var searchedDepartment = departments[command[0]];
-                    PrintPatients(searchedDepartment);
+                    string departmentName = command[0];
+                    Department department = GetDepartment(departmentName);
+
+                    foreach (var room in department.Rooms.Where(r => r.Patients.Count > 0))
+                    {
+                        PrintPatients(room.Patients);
+                    }
                 }
 
                 else if (int.TryParse(command[1], out int room))
                 {
+                    string departmentName = command[0];
+                    Department department = GetDepartment(departmentName);
                     int roomNumber = int.Parse(command[1]) - 1;
-
-                    if (roomNumber >= 20)
-                    {
-                        continue;
-                    }
-
-                    var searchedRoom = departments[command[0]]
-                        .Skip(3 * roomNumber)
-                        .Take(3)
+                    var patients = department.Rooms[roomNumber]
+                        .Patients
                         .OrderBy(p => p)
                         .ToList();
 
-                    PrintPatients(searchedRoom);
+                    PrintPatients(patients);
                 }
 
                 else
                 {
-                    var doctor = command[0] + ' ' + command[1];
-                    var doctorsPatients = doctors[doctor]
+                    var doctorName = command[0] + ' ' + command[1];
+                    var doctor = GetDoctor(doctorName);
+                    var patients = doctor
+                        .Patients
                         .OrderBy(p => p)
                         .ToList();
 
-                    PrintPatients(doctorsPatients);
+                    PrintPatients(patients);
                 }
             }
         }
@@ -83,14 +99,35 @@
             }
         }
 
-        public static void AddPatient(Dictionary<string, List<string>> collection, string name, string patient)
+        public static Doctor GetDoctor(string doctorName)
         {
-            if (!collection.ContainsKey(name))
+            var doctor = doctors.FirstOrDefault(d => d.Name == doctorName);
+
+            if (doctor == null)
             {
-                collection[name] = new List<string>();
+                doctor = new Doctor(doctorName);
+                doctors.Add(doctor);
             }
 
-            collection[name].Add(patient);
+            return doctor;
+        }
+
+        public static Department GetDepartment(string departmentName)
+        {
+            var department = departments.FirstOrDefault(d => d.Name == departmentName);
+
+            if (department == null)
+            {
+                department = new Department(departmentName);
+                departments.Add(department);
+
+                for (int i = 0; i < 20; i++)
+                {
+                    department.Rooms.Add(new Room());
+                }
+            }
+
+            return department;
         }
     }
 }

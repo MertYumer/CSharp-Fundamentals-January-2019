@@ -8,3 +8,4 @@ D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-ex
 D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P03-JediGalaxy\obj\Debug\netcoreapp2.1\P03-JediGalaxy.AssemblyInfo.cs
 D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P03-JediGalaxy\obj\Debug\netcoreapp2.1\P03-JediGalaxy.dll
 D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P03-JediGalaxy\obj\Debug\netcoreapp2.1\P03-JediGalaxy.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P03-JediGalaxy\obj\Debug\netcoreapp2.1\P03-JediGalaxy.csprojAssemblyReference.cache

@@ -8,3 +8,4 @@ D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-ex
 D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P04-Hospital\obj\Debug\netcoreapp2.1\P04-Hospital.AssemblyInfo.cs
 D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P04-Hospital\obj\Debug\netcoreapp2.1\P04-Hospital.dll
 D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P04-Hospital\obj\Debug\netcoreapp2.1\P04-Hospital.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\01-working-with-abstraction-exercises\P04-Hospital\obj\Debug\netcoreapp2.1\P04-Hospital.csprojAssemblyReference.cache
