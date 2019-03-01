@@ -15,12 +15,12 @@
             this.reserveTeam = new List<Person>();
         }
 
-        public List<Person> FirstTeam
+        public IReadOnlyList<Person> FirstTeam
         {
             get { return this.firstTeam; }
         }
 
-        public List<Person> ReserveTeam
+        public IReadOnlyList<Person> ReserveTeam
         {
             get { return this.reserveTeam; }
         }

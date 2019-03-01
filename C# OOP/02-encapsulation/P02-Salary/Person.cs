@@ -20,15 +20,12 @@
 
         public void IncreaseSalary(decimal bonus)
         {
-            if (this.age > 30)
+            if (this.age <= 30)
             {
-                this.salary += (this.salary * bonus / 100);
+                bonus /= 2;
             }
 
-            else
-            {
-                this.salary += (this.salary * bonus / 200);
-            }
+            this.salary += (this.salary * bonus / 100);
         }
 
         public override string ToString()

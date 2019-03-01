@@ -19,9 +19,7 @@
 
         public string FirstName
         {
-            get
-            { return this.firstName; }
-
+            get => this.firstName; 
             set
             {
                 if (value.Length < 3)
@@ -35,9 +33,7 @@
 
         public string LastName
         {
-            get
-            { return this.firstName; }
-
+            get => this.lastName;
             set
             {
                 if (value.Length < 3)
@@ -51,9 +47,7 @@
 
         public int Age
         {
-            get
-            { return this.age; }
-
+            get => this.age;
             set
             {
                 if (value <= 0)
@@ -67,9 +61,7 @@
 
         public decimal Salary
         {
-            get
-            { return this.salary; }
-
+            get => this.salary;
             set
             {
                 if (value < 460)
@@ -79,24 +71,6 @@
 
                 this.salary = value;
             }
-        }
-
-        public void IncreaseSalary(decimal bonus)
-        {
-            if (this.age > 30)
-            {
-                this.salary += (this.salary * bonus / 100);
-            }
-
-            else
-            {
-                this.salary += (this.salary * bonus / 200);
-            }
-        }
-
-        public override string ToString()
-        {
-            return $"{this.firstName} {this.lastName} receives {this.salary:f2} leva.".ToString();
         }
     }
 }

@@ -8,3 +8,4 @@ D:\Projects\C# Fundamentals - January 2019\C# OOP\02-encapsulation\P03-Validatio
 D:\Projects\C# Fundamentals - January 2019\C# OOP\02-encapsulation\P03-Validation\obj\Debug\netcoreapp2.1\P03-Validation.AssemblyInfo.cs
 D:\Projects\C# Fundamentals - January 2019\C# OOP\02-encapsulation\P03-Validation\obj\Debug\netcoreapp2.1\P03-Validation.dll
 D:\Projects\C# Fundamentals - January 2019\C# OOP\02-encapsulation\P03-Validation\obj\Debug\netcoreapp2.1\P03-Validation.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\02-encapsulation\P03-Validation\obj\Debug\netcoreapp2.1\P03-Validation.csprojAssemblyReference.cache

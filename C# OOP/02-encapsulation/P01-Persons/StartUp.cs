@@ -12,8 +12,8 @@
             var persons = new List<Person>();
             for (int i = 0; i < lines; i++)
             {
-                var cmdArgs = Console.ReadLine().Split();
-                var person = new Person(cmdArgs[0], cmdArgs[1], int.Parse(cmdArgs[2]));
+                var input = Console.ReadLine().Split();
+                var person = new Person(input[0], input[1], int.Parse(input[2]));
                 persons.Add(person);
             }
 

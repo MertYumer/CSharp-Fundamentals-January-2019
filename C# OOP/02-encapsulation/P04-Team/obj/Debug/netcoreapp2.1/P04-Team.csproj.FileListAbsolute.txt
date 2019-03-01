@@ -8,3 +8,4 @@ D:\Projects\C# Fundamentals - January 2019\C# OOP\02-encapsulation\P04-Team\obj\
 D:\Projects\C# Fundamentals - January 2019\C# OOP\02-encapsulation\P04-Team\obj\Debug\netcoreapp2.1\P04-Team.AssemblyInfo.cs
 D:\Projects\C# Fundamentals - January 2019\C# OOP\02-encapsulation\P04-Team\obj\Debug\netcoreapp2.1\P04-Team.dll
 D:\Projects\C# Fundamentals - January 2019\C# OOP\02-encapsulation\P04-Team\obj\Debug\netcoreapp2.1\P04-Team.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\02-encapsulation\P04-Team\obj\Debug\netcoreapp2.1\P04-Team.csprojAssemblyReference.cache
