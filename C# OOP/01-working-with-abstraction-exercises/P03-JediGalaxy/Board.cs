@@ -7,7 +7,7 @@
         public Board(int rows, int cols)
         {
             this.Matrix = new int[rows, cols];
-            this.InitializeMtrix();
+            this.InitializeMаtrix();
         }
 
         public int[,] Matrix
@@ -16,7 +16,7 @@
             set => this.matrix = value;
         }
 
-        private void InitializeMtrix()
+        private void InitializeMаtrix()
         {
             int value = 0;
 
