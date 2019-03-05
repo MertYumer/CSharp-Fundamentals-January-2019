@@ -1,0 +1,10 @@
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P04-RandomList\bin\Debug\netcoreapp2.1\P04-RandomList.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P04-RandomList\bin\Debug\netcoreapp2.1\P04-RandomList.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P04-RandomList\bin\Debug\netcoreapp2.1\P04-RandomList.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P04-RandomList\bin\Debug\netcoreapp2.1\P04-RandomList.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P04-RandomList\bin\Debug\netcoreapp2.1\P04-RandomList.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P04-RandomList\obj\Debug\netcoreapp2.1\P04-RandomList.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P04-RandomList\obj\Debug\netcoreapp2.1\P04-RandomList.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P04-RandomList\obj\Debug\netcoreapp2.1\P04-RandomList.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P04-RandomList\obj\Debug\netcoreapp2.1\P04-RandomList.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P04-RandomList\obj\Debug\netcoreapp2.1\P04-RandomList.pdb

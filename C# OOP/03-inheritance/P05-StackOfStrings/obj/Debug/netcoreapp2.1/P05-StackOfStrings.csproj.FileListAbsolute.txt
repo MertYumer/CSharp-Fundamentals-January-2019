@@ -1,0 +1,10 @@
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P05-StackOfStrings\bin\Debug\netcoreapp2.1\P05-StackOfStrings.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P05-StackOfStrings\bin\Debug\netcoreapp2.1\P05-StackOfStrings.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P05-StackOfStrings\bin\Debug\netcoreapp2.1\P05-StackOfStrings.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P05-StackOfStrings\bin\Debug\netcoreapp2.1\P05-StackOfStrings.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P05-StackOfStrings\bin\Debug\netcoreapp2.1\P05-StackOfStrings.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P05-StackOfStrings\obj\Debug\netcoreapp2.1\P05-StackOfStrings.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P05-StackOfStrings\obj\Debug\netcoreapp2.1\P05-StackOfStrings.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P05-StackOfStrings\obj\Debug\netcoreapp2.1\P05-StackOfStrings.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P05-StackOfStrings\obj\Debug\netcoreapp2.1\P05-StackOfStrings.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\03-inheritance\P05-StackOfStrings\obj\Debug\netcoreapp2.1\P05-StackOfStrings.pdb
