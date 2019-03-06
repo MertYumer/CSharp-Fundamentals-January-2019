@@ -1,12 +1,12 @@
-﻿namespace P04_OnlineRadioDatabase
+﻿namespace P05_MordorsCruelPlan
 {
-    using P04_OnlineRadioDatabase.Core;
+    using P05_MordorsCruelPlan.Core;
 
     public class StartUp
     {
         public static void Main()
         {
-            Engine engine = new Engine();
+            var engine = new Engine();
             engine.Run();
         }
     }

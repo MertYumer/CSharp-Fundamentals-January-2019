@@ -1,8 +1,6 @@
 ﻿namespace P04_OnlineRadioDatabase
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
+    using P04_OnlineRadioDatabase.Exceptions;
 
     public class Song
     {
@@ -13,59 +11,62 @@
 
         public Song(string artistName, string songName, int minutes, int seconds)
         {
-
+            this.ArtistName = artistName;
+            this.SongName = songName;
+            this.Minutes = minutes;
+            this.Seconds = seconds;
         }
 
-        private string ArtistName
+        public string ArtistName
         {
             get => this.artistName;
             set
             {
                 if (value.Length < 3 || value.Length > 20)
                 {
-
+                    throw new InvalidArtistNameException();
                 }
 
                 this.artistName = value;
             }
         }
 
-        private string SongName
+        public string SongName
         {
             get => this.songName;
             set
             {
                 if (value.Length < 3 || value.Length > 30)
                 {
-
+                    throw new InvalidSongNameException();
                 }
 
                 this.songName = value;
             }
         }
 
-        private int Minutes
+        public int Minutes
         {
             get => this.minutes;
             set
             {
                 if (value < 0 || value > 14)
                 {
-
+                    throw new InvalidSongMinutesException();
                 }
 
                 this.minutes = value;
             }
         }
 
-        private int Seconds
+        public int Seconds
         {
             get => this.seconds;
             set
             {
                 if (value < 0 || value > 59)
                 {
-
+                    throw new InvalidSongSecondsException();
                 }
 
                 this.seconds = value;
