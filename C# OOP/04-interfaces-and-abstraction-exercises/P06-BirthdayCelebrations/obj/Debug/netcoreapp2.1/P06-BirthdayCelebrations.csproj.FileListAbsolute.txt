@@ -1,0 +1,11 @@
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P06-BirthdayCelebrations\bin\Debug\netcoreapp2.1\P06-BirthdayCelebrations.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P06-BirthdayCelebrations\bin\Debug\netcoreapp2.1\P06-BirthdayCelebrations.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P06-BirthdayCelebrations\bin\Debug\netcoreapp2.1\P06-BirthdayCelebrations.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P06-BirthdayCelebrations\bin\Debug\netcoreapp2.1\P06-BirthdayCelebrations.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P06-BirthdayCelebrations\bin\Debug\netcoreapp2.1\P06-BirthdayCelebrations.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P06-BirthdayCelebrations\obj\Debug\netcoreapp2.1\P06-BirthdayCelebrations.csprojAssemblyReference.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P06-BirthdayCelebrations\obj\Debug\netcoreapp2.1\P06-BirthdayCelebrations.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P06-BirthdayCelebrations\obj\Debug\netcoreapp2.1\P06-BirthdayCelebrations.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P06-BirthdayCelebrations\obj\Debug\netcoreapp2.1\P06-BirthdayCelebrations.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P06-BirthdayCelebrations\obj\Debug\netcoreapp2.1\P06-BirthdayCelebrations.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P06-BirthdayCelebrations\obj\Debug\netcoreapp2.1\P06-BirthdayCelebrations.pdb

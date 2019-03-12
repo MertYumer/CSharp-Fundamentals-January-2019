@@ -1,0 +1,11 @@
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P04-Telephony\bin\Debug\netcoreapp2.1\P04-Telephony.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P04-Telephony\bin\Debug\netcoreapp2.1\P04-Telephony.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P04-Telephony\bin\Debug\netcoreapp2.1\P04-Telephony.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P04-Telephony\bin\Debug\netcoreapp2.1\P04-Telephony.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P04-Telephony\bin\Debug\netcoreapp2.1\P04-Telephony.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P04-Telephony\obj\Debug\netcoreapp2.1\P04-Telephony.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P04-Telephony\obj\Debug\netcoreapp2.1\P04-Telephony.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P04-Telephony\obj\Debug\netcoreapp2.1\P04-Telephony.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P04-Telephony\obj\Debug\netcoreapp2.1\P04-Telephony.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P04-Telephony\obj\Debug\netcoreapp2.1\P04-Telephony.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P04-Telephony\obj\Debug\netcoreapp2.1\P04-Telephony.csprojAssemblyReference.cache
