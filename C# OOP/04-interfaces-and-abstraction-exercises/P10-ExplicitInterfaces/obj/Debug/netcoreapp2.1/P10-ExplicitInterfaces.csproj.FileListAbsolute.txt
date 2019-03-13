@@ -1,0 +1,10 @@
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P10-ExplicitInterfaces\bin\Debug\netcoreapp2.1\P10-ExplicitInterfaces.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P10-ExplicitInterfaces\bin\Debug\netcoreapp2.1\P10-ExplicitInterfaces.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P10-ExplicitInterfaces\bin\Debug\netcoreapp2.1\P10-ExplicitInterfaces.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P10-ExplicitInterfaces\bin\Debug\netcoreapp2.1\P10-ExplicitInterfaces.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P10-ExplicitInterfaces\bin\Debug\netcoreapp2.1\P10-ExplicitInterfaces.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P10-ExplicitInterfaces\obj\Debug\netcoreapp2.1\P10-ExplicitInterfaces.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P10-ExplicitInterfaces\obj\Debug\netcoreapp2.1\P10-ExplicitInterfaces.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P10-ExplicitInterfaces\obj\Debug\netcoreapp2.1\P10-ExplicitInterfaces.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P10-ExplicitInterfaces\obj\Debug\netcoreapp2.1\P10-ExplicitInterfaces.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P10-ExplicitInterfaces\obj\Debug\netcoreapp2.1\P10-ExplicitInterfaces.pdb

@@ -1,0 +1,11 @@
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P09-CollectionHierarchy\bin\Debug\netcoreapp2.1\P09-CollectionHierarchy.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P09-CollectionHierarchy\bin\Debug\netcoreapp2.1\P09-CollectionHierarchy.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P09-CollectionHierarchy\bin\Debug\netcoreapp2.1\P09-CollectionHierarchy.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P09-CollectionHierarchy\bin\Debug\netcoreapp2.1\P09-CollectionHierarchy.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P09-CollectionHierarchy\bin\Debug\netcoreapp2.1\P09-CollectionHierarchy.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P09-CollectionHierarchy\obj\Debug\netcoreapp2.1\P09-CollectionHierarchy.csprojAssemblyReference.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P09-CollectionHierarchy\obj\Debug\netcoreapp2.1\P09-CollectionHierarchy.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P09-CollectionHierarchy\obj\Debug\netcoreapp2.1\P09-CollectionHierarchy.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P09-CollectionHierarchy\obj\Debug\netcoreapp2.1\P09-CollectionHierarchy.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P09-CollectionHierarchy\obj\Debug\netcoreapp2.1\P09-CollectionHierarchy.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\04-interfaces-and-abstraction-exercises\P09-CollectionHierarchy\obj\Debug\netcoreapp2.1\P09-CollectionHierarchy.pdb

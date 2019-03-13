@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05-BorderControl", "P05-Bo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06-BirthdayCelebrations", "P06-BirthdayCelebrations\P06-BirthdayCelebrations.csproj", "{AD9DC310-99D8-4D46-997B-686E587A166E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07-FoodShortage", "P07-FoodShortage\P07-FoodShortage.csproj", "{5425A8A5-DA8A-4C8D-BDBE-4B6D228C5598}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07-FoodShortage", "P07-FoodShortage\P07-FoodShortage.csproj", "{5425A8A5-DA8A-4C8D-BDBE-4B6D228C5598}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08-MilitaryElite", "P08-MilitaryElite\P08-MilitaryElite.csproj", "{361ED955-B2AD-413C-8544-E16074FA8C86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08-MilitaryElite", "P08-MilitaryElite\P08-MilitaryElite.csproj", "{361ED955-B2AD-413C-8544-E16074FA8C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09-CollectionHierarchy", "P09-CollectionHierarchy\P09-CollectionHierarchy.csproj", "{99275156-34F3-4ED5-BE5B-28C0F5BFBF50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10-ExplicitInterfaces", "P10-ExplicitInterfaces\P10-ExplicitInterfaces.csproj", "{0D917AF2-66A4-4A36-A432-FA6923059CB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{361ED955-B2AD-413C-8544-E16074FA8C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{361ED955-B2AD-413C-8544-E16074FA8C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{361ED955-B2AD-413C-8544-E16074FA8C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99275156-34F3-4ED5-BE5B-28C0F5BFBF50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99275156-34F3-4ED5-BE5B-28C0F5BFBF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99275156-34F3-4ED5-BE5B-28C0F5BFBF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99275156-34F3-4ED5-BE5B-28C0F5BFBF50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D917AF2-66A4-4A36-A432-FA6923059CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D917AF2-66A4-4A36-A432-FA6923059CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D917AF2-66A4-4A36-A432-FA6923059CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D917AF2-66A4-4A36-A432-FA6923059CB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
