@@ -1,8 +1,6 @@
 ﻿namespace P03_WildFarm.Animals.Birds
 {
     using System;
-    using System.Collections.Generic;
-    using System.Text;
     using P03_WildFarm.Foods;
 
     public class Owl : Bird
@@ -14,7 +12,16 @@
 
         public override void Eat(Food food)
         {
-            throw new NotImplementedException();
+            if (food is Meat)
+            {
+                this.Weight += (food.Quantity * 0.25);
+                this.FoodEaten += food.Quantity;
+            }
+
+            else
+            {
+                throw new ArgumentException($"Owl does not eat {food.GetType().Name}!");
+            }
         }
 
         public override void ProduceSound()

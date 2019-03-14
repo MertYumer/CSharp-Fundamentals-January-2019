@@ -1,8 +1,6 @@
 ﻿namespace P03_WildFarm.Animals.Birds
 {
     using System;
-    using System.Collections.Generic;
-    using System.Text;
     using P03_WildFarm.Foods;
 
     public class Hen : Bird
@@ -14,7 +12,8 @@
 
         public override void Eat(Food food)
         {
-            throw new NotImplementedException();
+            this.Weight += (food.Quantity * 0.35);
+            this.FoodEaten += food.Quantity;
         }
 
         public override void ProduceSound()

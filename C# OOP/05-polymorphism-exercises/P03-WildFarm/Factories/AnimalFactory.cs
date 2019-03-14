@@ -6,9 +6,9 @@
     using System;
     using P03_WildFarm.Animals;
 
-    public class AnimalFactory
+    public static class AnimalFactory
     {
-        public Animal CreatAnimal(string[] input)
+        public static Animal CreateAnimal(string[] input)
         {
             string type = input[0].ToLower();
 

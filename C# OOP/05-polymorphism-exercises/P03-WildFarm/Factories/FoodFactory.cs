@@ -3,9 +3,9 @@
     using P03_WildFarm.Foods;
     using System;
 
-    public class FoodFactory
+    public static class FoodFactory
     {
-        public Food CreateFood(string type, int quantity)
+        public static Food CreateFood(string type, int quantity)
         {
             type = type.ToLower();
 

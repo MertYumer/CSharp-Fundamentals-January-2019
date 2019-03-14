@@ -1,8 +1,6 @@
 ﻿namespace P03_WildFarm.Animals.Mammals
 {
     using System;
-    using System.Collections.Generic;
-    using System.Text;
     using P03_WildFarm.Foods;
 
     public class Dog : Mammal
@@ -14,12 +12,26 @@
 
         public override void Eat(Food food)
         {
-            throw new NotImplementedException();
+            if (food is Meat)
+            {
+                this.Weight += (food.Quantity * 0.40);
+                this.FoodEaten += food.Quantity;
+            }
+
+            else
+            {
+                throw new ArgumentException($"Dog does not eat {food.GetType().Name}!");
+            }
         }
 
         public override void ProduceSound()
         {
             Console.WriteLine("Woof!");
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + $"{this.Weight}, {this.LivingRegion}, {this.FoodEaten}]";
         }
     }
 }

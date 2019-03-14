@@ -12,7 +12,16 @@
 
         public override void Eat(Food food)
         {
-            throw new NotImplementedException();
+            if (food is Meat)
+            {
+                this.Weight += (food.Quantity * 1);
+                this.FoodEaten += food.Quantity;
+            }
+
+            else
+            {
+                throw new ArgumentException($"Tiger does not eat {food.GetType().Name}!");
+            }
         }
 
         public override void ProduceSound()

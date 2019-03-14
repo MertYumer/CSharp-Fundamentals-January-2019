@@ -1,9 +1,6 @@
 ﻿namespace P03_WildFarm.Animals.Felines
 {
     using P03_WildFarm.Animals.Mammals;
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
 
     public abstract class Feline : Mammal
     {
@@ -14,5 +11,10 @@
         }
 
         public string Breed { get; set; }
+
+        public override string ToString()
+        {
+            return base.ToString() + $"{this.Breed}, {this.Weight}, {this.LivingRegion}, {this.FoodEaten}]";
+        }
     }
 }
