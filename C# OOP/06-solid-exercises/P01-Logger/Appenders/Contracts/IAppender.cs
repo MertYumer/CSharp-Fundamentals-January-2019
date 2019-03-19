@@ -6,6 +6,8 @@
     {
         ReportLevel ReportLevel { get; set; }
 
+        int MessagesCount { get; }
+
         void Append(string dateTime, ReportLevel reportLevel, string message);
     }
 }
