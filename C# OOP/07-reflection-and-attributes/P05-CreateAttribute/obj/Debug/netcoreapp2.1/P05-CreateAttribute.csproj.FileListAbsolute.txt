@@ -1,0 +1,10 @@
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes\P05-CreateAttribute\bin\Debug\netcoreapp2.1\P05-CreateAttribute.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes\P05-CreateAttribute\bin\Debug\netcoreapp2.1\P05-CreateAttribute.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes\P05-CreateAttribute\bin\Debug\netcoreapp2.1\P05-CreateAttribute.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes\P05-CreateAttribute\bin\Debug\netcoreapp2.1\P05-CreateAttribute.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes\P05-CreateAttribute\bin\Debug\netcoreapp2.1\P05-CreateAttribute.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes\P05-CreateAttribute\obj\Debug\netcoreapp2.1\P05-CreateAttribute.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes\P05-CreateAttribute\obj\Debug\netcoreapp2.1\P05-CreateAttribute.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes\P05-CreateAttribute\obj\Debug\netcoreapp2.1\P05-CreateAttribute.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes\P05-CreateAttribute\obj\Debug\netcoreapp2.1\P05-CreateAttribute.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes\P05-CreateAttribute\obj\Debug\netcoreapp2.1\P05-CreateAttribute.pdb
