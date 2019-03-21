@@ -1,4 +1,4 @@
-﻿namespace P03_BarracksWars.Core
+﻿namespace BarracksWars.Core
 {
     using System;
     using Contracts;

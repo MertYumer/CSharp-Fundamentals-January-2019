@@ -694,9 +694,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\C# Fundamentals - January 2019\\C# OOP\\07-reflection-and-attributes-exercises\\P03-BarracksWars\\P03-BarracksWars.csproj",
-      "projectName": "P03-BarracksWars",
-      "projectPath": "D:\\Projects\\C# Fundamentals - January 2019\\C# OOP\\07-reflection-and-attributes-exercises\\P03-BarracksWars\\P03-BarracksWars.csproj",
+      "projectUniqueName": "D:\\Projects\\C# Fundamentals - January 2019\\C# OOP\\07-reflection-and-attributes-exercises\\P03-BarracksWars\\P03-BarrackWars-ANewFactory.csproj",
+      "projectName": "P03-BarrackWars-ANewFactory",
+      "projectPath": "D:\\Projects\\C# Fundamentals - January 2019\\C# OOP\\07-reflection-and-attributes-exercises\\P03-BarracksWars\\P03-BarrackWars-ANewFactory.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\C# Fundamentals - January 2019\\C# OOP\\07-reflection-and-attributes-exercises\\P03-BarracksWars\\obj\\",
       "projectStyle": "PackageReference",

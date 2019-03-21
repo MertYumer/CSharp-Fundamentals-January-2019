@@ -1,4 +1,4 @@
-﻿namespace P03_BarracksWars.Data
+﻿namespace BarracksWars.Data
 {
     using System;
     using Contracts;

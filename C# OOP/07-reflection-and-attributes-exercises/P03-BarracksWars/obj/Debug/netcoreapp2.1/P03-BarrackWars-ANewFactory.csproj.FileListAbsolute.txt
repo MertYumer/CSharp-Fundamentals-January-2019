@@ -1,0 +1,11 @@
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-exercises\P03-BarracksWars\bin\Debug\netcoreapp2.1\P03-BarrackWars-ANewFactory.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-exercises\P03-BarracksWars\bin\Debug\netcoreapp2.1\P03-BarrackWars-ANewFactory.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-exercises\P03-BarracksWars\bin\Debug\netcoreapp2.1\P03-BarrackWars-ANewFactory.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-exercises\P03-BarracksWars\bin\Debug\netcoreapp2.1\P03-BarrackWars-ANewFactory.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-exercises\P03-BarracksWars\bin\Debug\netcoreapp2.1\P03-BarrackWars-ANewFactory.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-exercises\P03-BarracksWars\obj\Debug\netcoreapp2.1\P03-BarrackWars-ANewFactory.csprojAssemblyReference.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-exercises\P03-BarracksWars\obj\Debug\netcoreapp2.1\P03-BarrackWars-ANewFactory.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-exercises\P03-BarracksWars\obj\Debug\netcoreapp2.1\P03-BarrackWars-ANewFactory.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-exercises\P03-BarracksWars\obj\Debug\netcoreapp2.1\P03-BarrackWars-ANewFactory.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-exercises\P03-BarracksWars\obj\Debug\netcoreapp2.1\P03-BarrackWars-ANewFactory.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-exercises\P03-BarracksWars\obj\Debug\netcoreapp2.1\P03-BarrackWars-ANewFactory.pdb
