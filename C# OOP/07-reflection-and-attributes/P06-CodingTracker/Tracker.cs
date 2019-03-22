@@ -13,7 +13,7 @@ public class Tracker
 
         foreach (var method in methods)
         {
-            var attribute = method.GetCustomAttribute<SoftUniAttribute>();
+            var attribute = method.GetCustomAttribute<AuthorAttribute>();
 
             if (attribute != null)
             {

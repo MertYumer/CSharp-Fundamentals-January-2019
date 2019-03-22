@@ -1,9 +1,7 @@
-﻿using System;
-
-[SoftUni("Ventsi")]
+﻿[Author("Ventsi")]
 class StartUp
 {
-    [SoftUni("Gosho")]
+    [Author("Gosho")]
     static void Main(string[] args)
     {
     }

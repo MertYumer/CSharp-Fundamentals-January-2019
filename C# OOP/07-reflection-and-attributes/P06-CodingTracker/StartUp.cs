@@ -1,9 +1,7 @@
-﻿using System;
-
-[SoftUni("Ventsi")]
+﻿[Author("Ventsi")]
 public class StartUp
 {
-    [SoftUni("Gosho")]
+    [Author("Gosho")]
     public static void Main(string[] args)
     {
         var tracker = new Tracker();

@@ -1,9 +1,9 @@
 ﻿using System;
 
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = true)]
-public class SoftUniAttribute : Attribute
+public class AuthorAttribute : Attribute
 {
-    public SoftUniAttribute(string name)
+    public AuthorAttribute(string name)
     {
         this.Name = name;
     }
