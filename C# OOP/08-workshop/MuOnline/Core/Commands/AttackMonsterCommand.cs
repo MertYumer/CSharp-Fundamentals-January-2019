@@ -4,8 +4,6 @@
     using Models.Heroes.HeroContracts;
     using Models.Monsters.Contracts;
     using Repositories.Contracts;
-    using System;
-    using System.Linq;
 
     public class AttackMonsterCommand : ICommand
     {
@@ -35,6 +33,12 @@
             while (hero.IsAlive && monster.IsAlive)
             {
                 hero.TakeDamage(monsterAttackPoints);
+
+                if (!hero.IsAlive)
+                {
+                    break;
+                }
+
                 var experience = monster.TakeDamage(heroAttackPoints);
                 ((IProgress)hero).AddExperience(experience);
             }

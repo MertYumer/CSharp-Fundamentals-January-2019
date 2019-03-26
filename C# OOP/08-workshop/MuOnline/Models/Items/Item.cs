@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace MuOnline.Models.Items
+﻿namespace MuOnline.Models.Items
 {
+    using System;
+
     using Contracts;
 
     public abstract class Item : IItem

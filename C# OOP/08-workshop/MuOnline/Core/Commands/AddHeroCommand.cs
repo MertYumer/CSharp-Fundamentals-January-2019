@@ -7,7 +7,7 @@
 
     public class AddHeroCommand : ICommand
     {
-        private const string SuccessfullMessage = "Successfully created hero: {0}";
+        private const string SuccessfulMessage = "Successfully created hero: {0}";
 
         private readonly IRepository<IHero> heroRepository;
         private readonly IHeroFactory heroFactory;
@@ -27,7 +27,7 @@
 
             this.heroRepository.Add(hero);
 
-            return string.Format(SuccessfullMessage, username);
+            return string.Format(SuccessfulMessage, username);
         }
     }
 }

@@ -1,10 +1,11 @@
 ﻿namespace MuOnline.Core.Factories
 {
-    using Contracts;
-    using MuOnline.Models.Monsters.Contracts;
     using System;
     using System.Linq;
     using System.Reflection;
+
+    using Contracts;
+    using Models.Monsters.Contracts;
 
     public class MonsterFactory : IMonsterFactory
     {

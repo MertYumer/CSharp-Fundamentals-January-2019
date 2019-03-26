@@ -1,10 +1,10 @@
 ﻿namespace MuOnline
 {
     using System;
-    using Core;
-    using Core.Contracts;
     using Microsoft.Extensions.DependencyInjection;
 
+    using Core;
+    using Core.Contracts;
     using Models.Heroes.HeroContracts;
     using Models.Monsters.Contracts;
     using Models.Items.Contracts;

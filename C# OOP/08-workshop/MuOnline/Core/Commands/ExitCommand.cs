@@ -1,8 +1,9 @@
 ﻿namespace MuOnline.Core.Commands
 {
-    using Contracts;
     using System;
     using System.Threading;
+
+    using Contracts;
 
     public class ExitCommand : ICommand
     {

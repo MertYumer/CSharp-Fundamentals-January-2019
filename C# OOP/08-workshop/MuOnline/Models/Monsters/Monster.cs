@@ -1,6 +1,7 @@
 ﻿namespace MuOnline.Models.Monsters
 {
     using System;
+
     using Contracts;
 
     public class Monster : IMonster

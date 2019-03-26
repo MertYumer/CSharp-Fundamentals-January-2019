@@ -25,6 +25,7 @@
             string username,
             int strength, int agility, int stamina, int energy)
         {
+            this.Inventory = new Inventory();
             this.Username = username;
             this.Strength = strength;
             this.Agility = agility;
@@ -33,8 +34,8 @@
             this.Experience = 0;
             this.Level = 0;
             this.Resets = 0;
-
-            this.Inventory = new Inventory();
+            this.totalStaminaPoints = this.GetTotalStaminaPoints();
+            this.totalAgilityPoints = this.GetTotalAgilityPoints();
         }
 
         public IInventory Inventory { get; }
@@ -192,7 +193,7 @@
 
         public void AddExperience(int experience)
         {
-            if (this.IsAlive)
+            if (!this.IsAlive)
             {
                 throw new InvalidOperationException("Hero is not alive!");
             }
@@ -233,28 +234,32 @@
 
         public int TotalAgilityPoints
         {
-            get
-            {
-                return this.totalAgilityPoints;
-            }
+            get => this.totalAgilityPoints;
+
             private set
             {
-                this.totalAgilityPoints = this.Agility +
-                                          this.Inventory.Items.Sum(x => x.Agility);
+                this.totalAgilityPoints = value;
             }
         }
 
         public int TotalStaminaPoints
         {
-            get
-            {
-                return this.totalStaminaPoints;
-            }
+            get => this.totalStaminaPoints;
+
             private set
             {
-                this.totalStaminaPoints = this.Stamina +
-                    this.Inventory.Items.Sum(x => x.Stamina);
+                this.totalStaminaPoints = value;
             }
+        }
+
+        private int GetTotalStaminaPoints()
+        {
+            return this.Stamina + this.Inventory.Items.Sum(x => x.Stamina);
+        }
+
+        private int GetTotalAgilityPoints()
+        {
+            return this.Agility + this.Inventory.Items.Sum(x => x.Agility);
         }
     }
 }

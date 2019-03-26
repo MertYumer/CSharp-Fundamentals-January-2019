@@ -1,7 +1,7 @@
-﻿using MuOnline.Models.Inventories.Contracts;
-
-namespace MuOnline.Models.Heroes.HeroContracts
+﻿namespace MuOnline.Models.Heroes.HeroContracts
 {
+    using Inventories.Contracts;
+
     public interface IHero
     {
         int Strength { get; }

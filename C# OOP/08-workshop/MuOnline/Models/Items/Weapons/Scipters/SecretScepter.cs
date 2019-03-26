@@ -1,9 +1,5 @@
 ﻿namespace MuOnline.Models.Items.Weapons.Scipters
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
-
     public class SecretScepter : Item
     {
         private const int strengthPoints = 10;

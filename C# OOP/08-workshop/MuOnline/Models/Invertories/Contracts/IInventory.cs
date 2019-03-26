@@ -1,6 +1,7 @@
 ﻿namespace MuOnline.Models.Inventories.Contracts
 {
     using System.Collections.Generic;
+
     using Items.Contracts;
 
     public interface IInventory

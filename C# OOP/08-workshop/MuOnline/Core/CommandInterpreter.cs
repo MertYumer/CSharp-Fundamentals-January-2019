@@ -1,10 +1,11 @@
 ﻿namespace MuOnline.Core
 {
-    using Contracts;
-    using Commands.Contracts;
     using System;
     using System.Linq;
     using System.Reflection;
+
+    using Contracts;
+    using Commands.Contracts;
 
     public class CommandInterpreter : ICommandInterpreter
     {

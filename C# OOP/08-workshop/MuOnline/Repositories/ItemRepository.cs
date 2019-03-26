@@ -5,7 +5,7 @@
     using System.Linq;
 
     using Contracts;
-    using MuOnline.Models.Items.Contracts;
+    using Models.Items.Contracts;
 
     public class ItemRepository : IRepository<IItem>
     {

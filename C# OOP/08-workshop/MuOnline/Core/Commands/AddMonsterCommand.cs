@@ -3,11 +3,11 @@
     using Contracts;
     using Factories.Contracts;
     using Repositories.Contracts;
-    using MuOnline.Models.Monsters.Contracts;
+    using Models.Monsters.Contracts;
 
     public class AddMonsterCommand : ICommand
     {
-        private const string SuccessfullMessage = "Successfully created monster: {0}";
+        private const string SuccessfulMessage = "Successfully created monster: {0}";
 
         private readonly IRepository<IMonster> monsterRepository;
         private readonly IMonsterFactory monsterFactory;
@@ -26,7 +26,7 @@
 
             this.monsterRepository.Add(monster);
 
-            return string.Format(SuccessfullMessage, monster.GetType().Name);
+            return string.Format(SuccessfulMessage, monster.GetType().Name);
         }
     }
 }

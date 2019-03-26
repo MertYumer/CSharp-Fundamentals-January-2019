@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MuOnline.Models.Heroes
+﻿namespace MuOnline.Models.Heroes
 {
     public class Elf : Hero
     {
