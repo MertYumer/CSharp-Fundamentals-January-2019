@@ -8,3 +8,4 @@ D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-e
 D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-exercises\P08-CreateCustomClassAttribute\obj\Debug\netcoreapp2.1\P08-CreateCustomClassAttribute.AssemblyInfo.cs
 D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-exercises\P08-CreateCustomClassAttribute\obj\Debug\netcoreapp2.1\P08-CreateCustomClassAttribute.dll
 D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-exercises\P08-CreateCustomClassAttribute\obj\Debug\netcoreapp2.1\P08-CreateCustomClassAttribute.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\07-reflection-and-attributes-exercises\P08-CreateCustomClassAttribute\obj\Debug\netcoreapp2.1\P08-CreateCustomClassAttribute.csprojAssemblyReference.cache

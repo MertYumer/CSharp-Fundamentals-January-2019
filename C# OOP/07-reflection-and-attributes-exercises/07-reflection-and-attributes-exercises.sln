@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05-BarrackWars-ReturnOfThe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06-TrafficLights", "P06-TrafficLights\P06-TrafficLights.csproj", "{48C8BD05-E7AF-4D97-8A94-ED5EF948EB64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08-CreateCustomClassAttribute", "P08-CreateCustomClassAttribute\P08-CreateCustomClassAttribute.csproj", "{F1CA40D4-3D5D-4DB6-90BD-550752FF8DC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08-CreateCustomClassAttribute", "P08-CreateCustomClassAttribute\P08-CreateCustomClassAttribute.csproj", "{F1CA40D4-3D5D-4DB6-90BD-550752FF8DC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07-InfernoInfinity", "P07-InfernoInfinity\P07-InfernoInfinity.csproj", "{9ED1B1CF-87D1-42A8-BFE3-D8BD175C4579}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{F1CA40D4-3D5D-4DB6-90BD-550752FF8DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1CA40D4-3D5D-4DB6-90BD-550752FF8DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1CA40D4-3D5D-4DB6-90BD-550752FF8DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED1B1CF-87D1-42A8-BFE3-D8BD175C4579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED1B1CF-87D1-42A8-BFE3-D8BD175C4579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED1B1CF-87D1-42A8-BFE3-D8BD175C4579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED1B1CF-87D1-42A8-BFE3-D8BD175C4579}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
