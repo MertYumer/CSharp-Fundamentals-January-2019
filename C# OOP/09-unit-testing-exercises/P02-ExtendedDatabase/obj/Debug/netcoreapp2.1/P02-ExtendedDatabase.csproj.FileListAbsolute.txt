@@ -1,0 +1,11 @@
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P02-ExtendedDatabase\bin\Debug\netcoreapp2.1\P02-ExtendedDatabase.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P02-ExtendedDatabase\bin\Debug\netcoreapp2.1\P02-ExtendedDatabase.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P02-ExtendedDatabase\bin\Debug\netcoreapp2.1\P02-ExtendedDatabase.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P02-ExtendedDatabase\bin\Debug\netcoreapp2.1\P02-ExtendedDatabase.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P02-ExtendedDatabase\bin\Debug\netcoreapp2.1\P02-ExtendedDatabase.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P02-ExtendedDatabase\obj\Debug\netcoreapp2.1\P02-ExtendedDatabase.csprojAssemblyReference.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P02-ExtendedDatabase\obj\Debug\netcoreapp2.1\P02-ExtendedDatabase.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P02-ExtendedDatabase\obj\Debug\netcoreapp2.1\P02-ExtendedDatabase.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P02-ExtendedDatabase\obj\Debug\netcoreapp2.1\P02-ExtendedDatabase.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P02-ExtendedDatabase\obj\Debug\netcoreapp2.1\P02-ExtendedDatabase.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P02-ExtendedDatabase\obj\Debug\netcoreapp2.1\P02-ExtendedDatabase.pdb
