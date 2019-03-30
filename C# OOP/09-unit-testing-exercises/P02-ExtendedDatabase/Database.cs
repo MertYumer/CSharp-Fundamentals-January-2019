@@ -89,7 +89,7 @@
         {
             if (id < 0)
             {
-                throw new ArgumentOutOfRangeException("Id cannot be less than zero!");
+                throw new ArgumentException("Id cannot be less than zero!");
             }
 
             if (!this.data.Any(p => p != null && p.Id == id))

@@ -33,7 +33,8 @@
         public void ConstructorShouldThrowInvalidOperationExceptionWithLargerArray()
         {
             Assert.That(() => new Database(largerArray),
-                Throws.InvalidOperationException);
+                Throws.InvalidOperationException, "The size of the " +
+                    "parameter must be equal or less than 16!");
         }
 
         [Test]
@@ -54,7 +55,7 @@
             var data = new Database(this.fullArray);
 
             Assert.That(() => data.Add(17),
-                Throws.InvalidOperationException);
+                Throws.InvalidOperationException, "Data is full!");
         }
 
         [Test]
@@ -75,7 +76,7 @@
             var data = new Database();
 
             Assert.That(() => data.Remove(),
-                Throws.InvalidOperationException);
+                Throws.InvalidOperationException, "Data is empty!");
         }
 
         [Test]
