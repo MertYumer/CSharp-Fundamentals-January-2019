@@ -1,9 +1,8 @@
 namespace P03_CustomLinkedList.Tests
 {
-    using NUnit.Framework;
     using System;
+    using NUnit.Framework;
 
-    [TestFixture]
     public class CustomLinkedListTests
     {
         private DynamicList<int> linkedList;
@@ -14,13 +13,14 @@ namespace P03_CustomLinkedList.Tests
             this.linkedList = new DynamicList<int>();
         }
 
-        [Test]
-        public void AddMethodShouldAddElement()
+        [TestCase(new int[] { 1, 2, 3 })]
+        public void AddMethodShouldAddElement(int[] elements)
         {
-            this.linkedList.Add(1);
-            this.linkedList.Add(2);
-            this.linkedList.Add(3);
-
+            for (int i = 0; i < elements.Length; i++)
+            {
+                this.linkedList.Add(elements[i]);
+            }
+            
             int expectedCount = 3;
             int actualCount = 3;
 
@@ -28,9 +28,14 @@ namespace P03_CustomLinkedList.Tests
                 "Add method doesn't add element correctly!");
         }
 
-        [Test]
-        public void CountPropertyShouldReturnTheNumberOfElements()
+        [TestCase(new int[] { 1, 2, 3 })]
+        public void CountPropertyShouldReturnTheNumberOfElements(int[] elements)
         {
+            for (int i = 0; i < elements.Length; i++)
+            {
+                this.linkedList.Add(elements[i]);
+            }
+
             int expectedCount = 3;
             int actualCount = this.linkedList.Count;
 
@@ -38,23 +43,68 @@ namespace P03_CustomLinkedList.Tests
                 "Count returns wrong value!");
         }
 
-        [Test]
-        public void GetElementFromValidIndexShouldReturnTheCorrectValue()
+        [TestCase(new int[] { 1, 2, 3 })]
+        public void GetElementFromValidIndexShouldReturnTheCorrectValue(int[] elements)
         {
+            for (int i = 0; i < elements.Length; i++)
+            {
+                this.linkedList.Add(elements[i]);
+            }
             int expectedValue = 3;
             int actualValue = this.linkedList[this.linkedList.Count - 1];
 
-            Assert.AreEqual(expectedValue, actualValue, 
+            Assert.AreEqual(expectedValue, actualValue,
                 "Get element doesn't return the correct value!");
         }
 
-        [Test]
-        public void GetElementFromInValidIndexShouldThrowException()
+        [TestCase(new int[] { 1, 2, 3 })]
+        public void GetElementFromInvalidIndexShouldThrowException(int[] elements)
         {
+            for (int i = 0; i < elements.Length; i++)
+            {
+                this.linkedList.Add(elements[i]);
+            }
+
             int invalidIndex = -1;
 
-            Assert.That(this.linkedList[invalidIndex], Throws.ArgumentException,
-                "Invalid index: " + invalidIndex);
+            Assert.Throws<ArgumentOutOfRangeException>(() =>
+            {
+                int element = this.linkedList[invalidIndex];
+
+            }, $"Invalid index: {invalidIndex}");
+        }
+
+        [TestCase(new int[] { 1, 2, 3 })]
+        public void SetValueAtValidIndexShouldSetItCorrectly(int[] elements)
+        {
+            for (int i = 0; i < elements.Length; i++)
+            {
+                this.linkedList.Add(elements[i]);
+            }
+
+            int expectedValue = 5;
+            this.linkedList[this.linkedList.Count - 1] = expectedValue;
+            int actualValue = this.linkedList[this.linkedList.Count - 1];
+
+            Assert.AreEqual(expectedValue, actualValue,
+                "Set element doesn't set correctly!");
+        }
+
+        [TestCase(new int[] { 1, 2, 3 })]
+        public void SetValueAtInvalidIndexShouldThrowException(int[] elements)
+        {
+            for (int i = 0; i < elements.Length; i++)
+            {
+                this.linkedList.Add(elements[i]);
+            }
+
+            int invalidIndex = this.linkedList.Count;
+
+            Assert.Throws<ArgumentOutOfRangeException>(() =>
+            {
+                int element = this.linkedList[invalidIndex];
+
+            }, $"Invalid index: {invalidIndex}");
         }
     }
 }

@@ -58,7 +58,7 @@
             {
                 if (index >= this.count || index < 0)
                 {
-                    throw new ArgumentException("Invalid index: " + index);
+                    throw new ArgumentOutOfRangeException("Invalid index: " + index);
                 }
 
                 ListNode currentNode = this.head;
