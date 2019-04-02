@@ -1,0 +1,8 @@
+AddProduct {type} {price}
+RegisterStorage {type} {name}
+SelectVehicle {storageName} {garageSlot}
+LoadVehicle {productName1} {productName2} {productNameN}
+SendVehicleTo {sourceName} {sourceGarageSlot} {destinationName}
+UnloadVehicle {storageName} {garageSlot}
+GetStorageStatus {storageName}
+GetSummary

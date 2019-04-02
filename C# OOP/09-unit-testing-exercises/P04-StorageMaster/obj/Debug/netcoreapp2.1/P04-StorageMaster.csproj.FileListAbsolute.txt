@@ -1,0 +1,11 @@
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P04-StorageMaster\obj\Debug\netcoreapp2.1\P04-StorageMaster.csprojAssemblyReference.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P04-StorageMaster\obj\Debug\netcoreapp2.1\P04-StorageMaster.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P04-StorageMaster\obj\Debug\netcoreapp2.1\P04-StorageMaster.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P04-StorageMaster\obj\Debug\netcoreapp2.1\P04-StorageMaster.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P04-StorageMaster\bin\Debug\netcoreapp2.1\P04-StorageMaster.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P04-StorageMaster\bin\Debug\netcoreapp2.1\P04-StorageMaster.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P04-StorageMaster\bin\Debug\netcoreapp2.1\P04-StorageMaster.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P04-StorageMaster\bin\Debug\netcoreapp2.1\P04-StorageMaster.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P04-StorageMaster\bin\Debug\netcoreapp2.1\P04-StorageMaster.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P04-StorageMaster\obj\Debug\netcoreapp2.1\P04-StorageMaster.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\09-unit-testing-exercises\P04-StorageMaster\obj\Debug\netcoreapp2.1\P04-StorageMaster.pdb

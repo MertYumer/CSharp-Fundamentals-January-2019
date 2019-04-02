@@ -111,7 +111,10 @@
 
         public IEnumerator<IProduct> GetEnumerator()
         {
-            throw new NotImplementedException();
+            foreach (var product in this.products)
+            {
+                yield return product;
+            }
         }
 
         public bool Remove(IProduct product)
@@ -125,9 +128,6 @@
             return true;
         }
 
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
     }
 }
