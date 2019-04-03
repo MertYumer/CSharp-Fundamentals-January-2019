@@ -87,7 +87,8 @@
 			return $"Loaded {loadedProductsCount}/{totalProductsCount} products into {this.currentVehicle.GetType().Name}";
 		}
 
-		public string SendVehicleTo(string sourceName, int sourceGarageSlot, string destinationName)
+		public string SendVehicleTo(string sourceName, int sourceGarageSlot,
+            string destinationName)
 		{
 			if (!this.storageRegistry.ContainsKey(sourceName))
 			{

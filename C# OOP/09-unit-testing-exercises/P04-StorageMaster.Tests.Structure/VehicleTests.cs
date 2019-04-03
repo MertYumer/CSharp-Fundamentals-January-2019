@@ -6,6 +6,7 @@ namespace P04_StorageMaster.Tests.Structure
     using Entities.Vehicles;
     using Entities.Products;
     using System.Reflection;
+    using System;
 
     [TestFixture]
     public class VehicleTests
@@ -38,6 +39,23 @@ namespace P04_StorageMaster.Tests.Structure
             var field = fields.First();
 
             Assert.AreEqual(field.FieldType, typeof(List<Product>));
+        }
+
+        [Test]
+        public void Vehicle_ShouldHaveConstructor()
+        {
+            var constructors = typeof(Vehicle)
+                .GetConstructors(BindingFlags.NonPublic |
+                BindingFlags.Instance | BindingFlags.Public);
+
+            Type[] parameterTypes = new Type[] { typeof(int) };
+
+            var constructor = typeof(Vehicle)
+                .GetConstructor(BindingFlags.NonPublic
+                | BindingFlags.Public | BindingFlags.Instance,
+                null, parameterTypes, null);
+
+            Assert.IsTrue(constructor != null);
         }
 
         [Test]

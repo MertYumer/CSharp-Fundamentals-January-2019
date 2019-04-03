@@ -5,6 +5,7 @@
     using Entities.Vehicles;
     using Entities.Products;
     using System.Reflection;
+    using System;
 
     [TestFixture]
     public class ProductTests
@@ -37,6 +38,23 @@
             var field = fields.First();
 
             Assert.AreEqual(field.FieldType, typeof(double));
+        }
+
+        [Test]
+        public void Product_ShouldHaveConstructor()
+        {
+            var constructors = typeof(Product)
+                .GetConstructors(BindingFlags.NonPublic |
+                BindingFlags.Instance | BindingFlags.Public);
+
+            Type[] parameterTypes = new Type[] { typeof(double), typeof(double)};
+
+            var constructor = typeof(Product)
+                .GetConstructor(BindingFlags.NonPublic
+                | BindingFlags.Public | BindingFlags.Instance,
+                null, parameterTypes, null);
+
+            Assert.IsTrue(constructor != null);
         }
 
         [Test]
