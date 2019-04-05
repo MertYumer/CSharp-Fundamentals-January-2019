@@ -8,12 +8,14 @@ public class Dragon : ITarget
     private int hp;
     private int reward;
     private bool eventTriggered;
+    private IHandler logger;
 
-    public Dragon(string id, int hp, int reward)
+    public Dragon(string id, int hp, int reward, IHandler logger)
     {
         this.id = id;
         this.hp = hp;
         this.reward = reward;
+        this.logger = logger;
     }
 
     public bool IsDead

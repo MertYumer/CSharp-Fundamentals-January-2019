@@ -8,3 +8,4 @@ D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-and-ev
 D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-and-events\P01-Logger\obj\Debug\netcoreapp2.1\P01-Logger.AssemblyInfo.cs
 D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-and-events\P01-Logger\obj\Debug\netcoreapp2.1\P01-Logger.dll
 D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-and-events\P01-Logger\obj\Debug\netcoreapp2.1\P01-Logger.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-and-events\P01-Logger\obj\Debug\netcoreapp2.1\P01-Logger.csprojAssemblyReference.cache

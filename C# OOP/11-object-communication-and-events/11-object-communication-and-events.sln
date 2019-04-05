@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heroes", "Heroes\Heroes.csproj", "{85C1C1A2-2109-4204-9A47-B45DEFD105EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01-Logger", "P01-Logger\P01-Logger.csproj", "{02D6E9B6-FDD9-4593-A133-138DF4BCF7D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01-Logger", "P01-Logger\P01-Logger.csproj", "{02D6E9B6-FDD9-4593-A133-138DF4BCF7D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02-Command", "P02-Command\P02-Command.csproj", "{745C32CA-284C-4057-9804-018D65BD9924}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{02D6E9B6-FDD9-4593-A133-138DF4BCF7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02D6E9B6-FDD9-4593-A133-138DF4BCF7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02D6E9B6-FDD9-4593-A133-138DF4BCF7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{745C32CA-284C-4057-9804-018D65BD9924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745C32CA-284C-4057-9804-018D65BD9924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745C32CA-284C-4057-9804-018D65BD9924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745C32CA-284C-4057-9804-018D65BD9924}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
