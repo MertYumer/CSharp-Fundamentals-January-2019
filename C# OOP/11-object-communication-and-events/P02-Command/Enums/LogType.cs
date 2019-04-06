@@ -1,8 +1,11 @@
-﻿public enum LogType
+﻿namespace Heroes.Enums
 {
-    ATTACK,
-    MAGIC,
-    TARGET,
-    ERROR,
-    EVENT
+    public enum LogType
+    {
+        ATTACK,
+        MAGIC,
+        TARGET,
+        ERROR,
+        EVENT
+    }
 }

@@ -1,14 +1,19 @@
-﻿public class AttackCommand : ICommand
+﻿namespace Heroes.Commands
 {
-    private IAttacker attacker;
+    using Heroes.Contracts;
 
-    public AttackCommand(IAttacker attacker)
+    public class AttackCommand : ICommand
     {
-        this.attacker = attacker;
-    }
+        private IAttacker attacker;
 
-    public void Execute()
-    {
-        this.attacker.Attack();
+        public AttackCommand(IAttacker attacker)
+        {
+            this.attacker = attacker;
+        }
+
+        public void Execute()
+        {
+            this.attacker.Attack();
+        }
     }
 }

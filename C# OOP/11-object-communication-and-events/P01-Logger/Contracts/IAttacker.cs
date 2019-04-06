@@ -1,6 +1,9 @@
-﻿public interface IAttacker
+﻿namespace Heroes.Contracts
 {
-    void Attack();
+    public interface IAttacker
+    {
+        void Attack();
 
-    void SetTarget(ITarget target);
+        void SetTarget(ITarget target);
+    }
 }

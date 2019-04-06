@@ -1,6 +1,9 @@
-﻿public interface ITarget
+﻿namespace Heroes.Contracts
 {
-    void ReceiveDamage(int damage);
+    public interface ITarget
+    {
+        void ReceiveDamage(int damage);
 
-    bool IsDead { get; }
+        bool IsDead { get; }
+    }
 }

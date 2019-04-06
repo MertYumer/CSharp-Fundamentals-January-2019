@@ -1,42 +1,46 @@
-﻿using System;
-
-public class Dragon : ITarget
+﻿namespace Heroes.Models
 {
-    private const string THIS_DIED_EVENT = "{0} dies";
+    using Heroes.Contracts;
+    using System;
 
-    private string id;
-    private int hp;
-    private int reward;
-    private bool eventTriggered;
-
-    public Dragon(string id, int hp, int reward)
+    public class Dragon : ITarget
     {
-        this.id = id;
-        this.hp = hp;
-        this.reward = reward;
-    }
+        private const string THIS_DIED_EVENT = "{0} dies";
 
-    public bool IsDead
-    {
-        get => this.hp <= 0;
-    }
+        private string id;
+        private int hp;
+        private int reward;
+        private bool eventTriggered;
 
-    public void ReceiveDamage(int damage)
-    {
-        if (!this.IsDead)
+        public Dragon(string id, int hp, int reward)
         {
-            this.hp -= damage;
+            this.id = id;
+            this.hp = hp;
+            this.reward = reward;
         }
 
-        if (this.IsDead && !eventTriggered)
+        public bool IsDead
         {
-            Console.WriteLine(THIS_DIED_EVENT, this);
-            this.eventTriggered = true;
+            get => this.hp <= 0;
         }
-    }
 
-    public override string ToString()
-    {
-        return this.id;
+        public void ReceiveDamage(int damage)
+        {
+            if (!this.IsDead)
+            {
+                this.hp -= damage;
+            }
+
+            if (this.IsDead && !eventTriggered)
+            {
+                Console.WriteLine(THIS_DIED_EVENT, this);
+                this.eventTriggered = true;
+            }
+        }
+
+        public override string ToString()
+        {
+            return this.id;
+        }
     }
 }

@@ -1,5 +1,9 @@
 ﻿namespace Heroes
 {
+    using Heroes.Commands;
+    using Heroes.Contracts;
+    using Heroes.Models;
+
     public class StartUp
     {
         public static void Main()

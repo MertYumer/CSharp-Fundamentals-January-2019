@@ -1,4 +1,7 @@
-﻿public interface IExecutor
+﻿namespace Heroes.Contracts
 {
-    void Execute(ICommand command);
+    public interface IExecutor
+    {
+        void Execute(ICommand command);
+    }
 }

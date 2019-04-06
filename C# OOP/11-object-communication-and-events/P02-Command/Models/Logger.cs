@@ -1,19 +1,25 @@
-﻿public abstract class Logger : IHandler
+﻿namespace Heroes.Models
 {
-    private IHandler successor;
+    using Heroes.Contracts;
+    using Heroes.Enums;
 
-    public void SetSuccessor(IHandler successor)
+    public abstract class Logger : IHandler
     {
-        this.successor = successor;
-    }
+        private IHandler successor;
 
-    protected void PassToSuccessor(LogType type, string message)
-    {
-        if (this.successor != null)
+        public void SetSuccessor(IHandler successor)
         {
-            this.successor.Handle(type, message);
+            this.successor = successor;
         }
-    }
 
-    public abstract void Handle(LogType type, string message);
+        protected void PassToSuccessor(LogType type, string message)
+        {
+            if (this.successor != null)
+            {
+                this.successor.Handle(type, message);
+            }
+        }
+
+        public abstract void Handle(LogType type, string message);
+    }
 }

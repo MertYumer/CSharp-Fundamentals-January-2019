@@ -1,58 +1,62 @@
-﻿using System;
-
-public abstract class AbstractHero : IAttacker
+﻿namespace Heroes.Models
 {
-    private const string TARGET_NULL_MESSAGE = "Target is null.";
-    private const string NO_TARGET_MESSAGE = "{0} has no target.";
-    private const string TARGET_DEAD_MESSAGE = "{0} is dead.";
-    private const string SET_TARGET_MESSAGE = "{0} targets {1}.";
+    using Heroes.Contracts;
+    using System;
 
-    private string id;
-    private int damage;
-    private ITarget target;
-    private IHandler logger;
-
-    public AbstractHero(string id, int damage, IHandler logger)
+    public abstract class AbstractHero : IAttacker
     {
-        this.id = id;
-        this.damage = damage;
-        this.logger = logger;
-    }
+        private const string TARGET_NULL_MESSAGE = "Target is null.";
+        private const string NO_TARGET_MESSAGE = "{0} has no target.";
+        private const string TARGET_DEAD_MESSAGE = "{0} is dead.";
+        private const string SET_TARGET_MESSAGE = "{0} targets {1}.";
 
-    public void Attack()
-    {
-        if (this.target == null)
-        {
-            Console.WriteLine(NO_TARGET_MESSAGE, this);
-        }
-        else if (this.target.IsDead)
-        {
-            Console.WriteLine(TARGET_DEAD_MESSAGE, this.target);
-        }
-        else
-        {
-            this.ExecuteClassSpecificAttack(this.target, this.damage);
-        }
-    }
+        private string id;
+        private int damage;
+        private ITarget target;
+        private IHandler logger;
 
-    public void SetTarget(ITarget target)
-    {
-        if (target == null)
+        public AbstractHero(string id, int damage, IHandler logger)
         {
-            Console.WriteLine(TARGET_NULL_MESSAGE);
+            this.id = id;
+            this.damage = damage;
+            this.logger = logger;
         }
-        else
+
+        public void Attack()
         {
-            this.target = target;
-
-            Console.WriteLine(SET_TARGET_MESSAGE, this, target);
+            if (this.target == null)
+            {
+                Console.WriteLine(NO_TARGET_MESSAGE, this);
+            }
+            else if (this.target.IsDead)
+            {
+                Console.WriteLine(TARGET_DEAD_MESSAGE, this.target);
+            }
+            else
+            {
+                this.ExecuteClassSpecificAttack(this.target, this.damage);
+            }
         }
-    }
 
-    protected abstract void ExecuteClassSpecificAttack(ITarget target, int damage);
+        public void SetTarget(ITarget target)
+        {
+            if (target == null)
+            {
+                Console.WriteLine(TARGET_NULL_MESSAGE);
+            }
+            else
+            {
+                this.target = target;
 
-    public override string ToString()
-    {
-        return this.id;
+                Console.WriteLine(SET_TARGET_MESSAGE, this, target);
+            }
+        }
+
+        protected abstract void ExecuteClassSpecificAttack(ITarget target, int damage);
+
+        public override string ToString()
+        {
+            return this.id;
+        }
     }
 }

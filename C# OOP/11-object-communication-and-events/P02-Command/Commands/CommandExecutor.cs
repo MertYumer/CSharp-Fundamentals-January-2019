@@ -1,7 +1,12 @@
-﻿public class CommandExecutor : IExecutor
+﻿namespace Heroes.Commands
 {
-    public void Execute(ICommand command)
-    {
+    using Heroes.Contracts;
 
+    public class CommandExecutor : IExecutor
+    {
+        public void Execute(ICommand command)
+        {
+            command.Execute();
+        }
     }
 }

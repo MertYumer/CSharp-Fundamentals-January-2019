@@ -1,6 +1,11 @@
-﻿public interface IHandler
+﻿namespace Heroes.Contracts
 {
-    void Handle(LogType type, string message);
+    using Heroes.Enums;
 
-    void SetSuccessor(IHandler handler);
+    public interface IHandler
+    {
+        void Handle(LogType type, string message);
+
+        void SetSuccessor(IHandler handler);
+    }
 }
