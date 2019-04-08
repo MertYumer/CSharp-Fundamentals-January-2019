@@ -1,0 +1,11 @@
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P03-DependencyInversion\bin\Debug\netcoreapp2.1\P03-DependencyInversion.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P03-DependencyInversion\bin\Debug\netcoreapp2.1\P03-DependencyInversion.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P03-DependencyInversion\bin\Debug\netcoreapp2.1\P03-DependencyInversion.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P03-DependencyInversion\bin\Debug\netcoreapp2.1\P03-DependencyInversion.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P03-DependencyInversion\bin\Debug\netcoreapp2.1\P03-DependencyInversion.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P03-DependencyInversion\obj\Debug\netcoreapp2.1\P03-DependencyInversion.csprojAssemblyReference.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P03-DependencyInversion\obj\Debug\netcoreapp2.1\P03-DependencyInversion.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P03-DependencyInversion\obj\Debug\netcoreapp2.1\P03-DependencyInversion.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P03-DependencyInversion\obj\Debug\netcoreapp2.1\P03-DependencyInversion.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P03-DependencyInversion\obj\Debug\netcoreapp2.1\P03-DependencyInversion.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P03-DependencyInversion\obj\Debug\netcoreapp2.1\P03-DependencyInversion.pdb

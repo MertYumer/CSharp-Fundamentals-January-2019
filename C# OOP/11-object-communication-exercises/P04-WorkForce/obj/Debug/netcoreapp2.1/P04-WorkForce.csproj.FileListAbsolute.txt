@@ -1,0 +1,11 @@
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P04-WorkForce\bin\Debug\netcoreapp2.1\P04-WorkForce.deps.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P04-WorkForce\bin\Debug\netcoreapp2.1\P04-WorkForce.runtimeconfig.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P04-WorkForce\bin\Debug\netcoreapp2.1\P04-WorkForce.runtimeconfig.dev.json
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P04-WorkForce\bin\Debug\netcoreapp2.1\P04-WorkForce.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P04-WorkForce\bin\Debug\netcoreapp2.1\P04-WorkForce.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P04-WorkForce\obj\Debug\netcoreapp2.1\P04-WorkForce.csprojAssemblyReference.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P04-WorkForce\obj\Debug\netcoreapp2.1\P04-WorkForce.csproj.CoreCompileInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P04-WorkForce\obj\Debug\netcoreapp2.1\P04-WorkForce.AssemblyInfoInputs.cache
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P04-WorkForce\obj\Debug\netcoreapp2.1\P04-WorkForce.AssemblyInfo.cs
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P04-WorkForce\obj\Debug\netcoreapp2.1\P04-WorkForce.dll
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-exercises\P04-WorkForce\obj\Debug\netcoreapp2.1\P04-WorkForce.pdb
