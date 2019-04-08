@@ -8,3 +8,4 @@ D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-and-ev
 D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-and-events\P03-Mediator\obj\Debug\netcoreapp2.1\P03-Mediator.AssemblyInfo.cs
 D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-and-events\P03-Mediator\obj\Debug\netcoreapp2.1\P03-Mediator.dll
 D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-and-events\P03-Mediator\obj\Debug\netcoreapp2.1\P03-Mediator.pdb
+D:\Projects\C# Fundamentals - January 2019\C# OOP\11-object-communication-and-events\P03-Mediator\obj\Debug\netcoreapp2.1\P03-Mediator.csprojAssemblyReference.cache
