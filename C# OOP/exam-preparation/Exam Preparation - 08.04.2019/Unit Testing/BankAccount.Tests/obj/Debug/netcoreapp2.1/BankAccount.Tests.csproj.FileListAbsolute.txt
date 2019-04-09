@@ -1,0 +1,17 @@
+D:\Projects\New folder\unit\BankAccount.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+D:\Projects\New folder\unit\BankAccount.Tests\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+D:\Projects\New folder\unit\BankAccount.Tests\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+D:\Projects\New folder\unit\BankAccount.Tests\bin\Debug\netcoreapp2.1\BankAccount.Tests.deps.json
+D:\Projects\New folder\unit\BankAccount.Tests\bin\Debug\netcoreapp2.1\BankAccount.Tests.runtimeconfig.json
+D:\Projects\New folder\unit\BankAccount.Tests\bin\Debug\netcoreapp2.1\BankAccount.Tests.runtimeconfig.dev.json
+D:\Projects\New folder\unit\BankAccount.Tests\bin\Debug\netcoreapp2.1\BankAccount.Tests.dll
+D:\Projects\New folder\unit\BankAccount.Tests\bin\Debug\netcoreapp2.1\BankAccount.Tests.pdb
+D:\Projects\New folder\unit\BankAccount.Tests\bin\Debug\netcoreapp2.1\BankAccount.dll
+D:\Projects\New folder\unit\BankAccount.Tests\bin\Debug\netcoreapp2.1\BankAccount.pdb
+D:\Projects\New folder\unit\BankAccount.Tests\obj\Debug\netcoreapp2.1\BankAccount.Tests.csprojAssemblyReference.cache
+D:\Projects\New folder\unit\BankAccount.Tests\obj\Debug\netcoreapp2.1\BankAccount.Tests.csproj.CoreCompileInputs.cache
+D:\Projects\New folder\unit\BankAccount.Tests\obj\Debug\netcoreapp2.1\BankAccount.Tests.AssemblyInfoInputs.cache
+D:\Projects\New folder\unit\BankAccount.Tests\obj\Debug\netcoreapp2.1\BankAccount.Tests.AssemblyInfo.cs
+D:\Projects\New folder\unit\BankAccount.Tests\obj\Debug\netcoreapp2.1\BankAccount.Tests.csproj.CopyComplete
+D:\Projects\New folder\unit\BankAccount.Tests\obj\Debug\netcoreapp2.1\BankAccount.Tests.dll
+D:\Projects\New folder\unit\BankAccount.Tests\obj\Debug\netcoreapp2.1\BankAccount.Tests.pdb

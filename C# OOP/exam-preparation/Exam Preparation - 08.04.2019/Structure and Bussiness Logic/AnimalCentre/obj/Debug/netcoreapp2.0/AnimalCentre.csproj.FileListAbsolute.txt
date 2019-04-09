@@ -1,0 +1,11 @@
+D:\Projects\New folder\AnimalCentre\bin\Debug\netcoreapp2.0\AnimalCentre.deps.json
+D:\Projects\New folder\AnimalCentre\bin\Debug\netcoreapp2.0\AnimalCentre.runtimeconfig.json
+D:\Projects\New folder\AnimalCentre\bin\Debug\netcoreapp2.0\AnimalCentre.runtimeconfig.dev.json
+D:\Projects\New folder\AnimalCentre\bin\Debug\netcoreapp2.0\AnimalCentre.dll
+D:\Projects\New folder\AnimalCentre\bin\Debug\netcoreapp2.0\AnimalCentre.pdb
+D:\Projects\New folder\AnimalCentre\obj\Debug\netcoreapp2.0\AnimalCentre.csprojAssemblyReference.cache
+D:\Projects\New folder\AnimalCentre\obj\Debug\netcoreapp2.0\AnimalCentre.csproj.CoreCompileInputs.cache
+D:\Projects\New folder\AnimalCentre\obj\Debug\netcoreapp2.0\AnimalCentre.AssemblyInfoInputs.cache
+D:\Projects\New folder\AnimalCentre\obj\Debug\netcoreapp2.0\AnimalCentre.AssemblyInfo.cs
+D:\Projects\New folder\AnimalCentre\obj\Debug\netcoreapp2.0\AnimalCentre.dll
+D:\Projects\New folder\AnimalCentre\obj\Debug\netcoreapp2.0\AnimalCentre.pdb
