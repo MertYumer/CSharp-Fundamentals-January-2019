@@ -3,9 +3,9 @@
     using Models.Tables.Contracts;
     using Models.Tables;
 
-    public class TableFactory
+    public static class TableFactory
     {
-        public ITable CreateTable(string type, int tableNumber, int capacity)
+        public static ITable CreateTable(string type, int tableNumber, int capacity)
         {
             ITable table;
 

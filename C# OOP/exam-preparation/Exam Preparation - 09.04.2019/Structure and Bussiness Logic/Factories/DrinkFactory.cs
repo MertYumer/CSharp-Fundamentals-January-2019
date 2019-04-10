@@ -3,9 +3,9 @@
     using Models.Drinks.Contracts;
     using Models.Drinks;
 
-    public class DrinkFactory
+    public static class DrinkFactory
     {
-        public IDrink CreateDrink(string type, string name, int servingSize, string brand)
+        public static IDrink CreateDrink(string type, string name, int servingSize, string brand)
         {
             IDrink drink;
 

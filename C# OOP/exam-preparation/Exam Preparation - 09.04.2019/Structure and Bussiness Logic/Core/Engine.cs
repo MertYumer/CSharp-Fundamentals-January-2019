@@ -15,8 +15,7 @@
         {
             while (true)
             {
-                var input = Console.ReadLine()
-                    .Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                var input = Console.ReadLine().Split();
 
                 string command = input[0];
 

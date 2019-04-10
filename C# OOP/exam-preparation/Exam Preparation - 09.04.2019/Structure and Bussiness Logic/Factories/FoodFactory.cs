@@ -3,9 +3,9 @@
     using Models.Foods.Contracts;
     using Models.Foods;
 
-    public class FoodFactory
+    public static class FoodFactory
     {
-        public IFood CreateFood(string type, string name, decimal price)
+        public static IFood CreateFood(string type, string name, decimal price)
         {
             IFood food;
 

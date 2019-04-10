@@ -2,7 +2,7 @@
 {
     using Contracts;
     using Drinks.Contracts;
-    using Models.Foods.Contracts;
+    using Foods.Contracts;
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -10,20 +10,18 @@
 
     public abstract class Table : ITable
     {
-        private List<IFood> orderedFoods;
-        private List<IDrink> orderedDrinks;
         private int capacity;
         private int numberOfPeople;
+        private List<IFood> foodOrders;
+        private List<IDrink> drinkOrders;
 
         public Table(int tableNumber, int capacity, decimal pricePerPerson)
         {
-            this.orderedFoods = new List<IFood>();
-            this.orderedDrinks = new List<IDrink>();
             this.TableNumber = tableNumber;
             this.Capacity = capacity;
             this.PricePerPerson = pricePerPerson;
-            this.IsReserved = false;
-            this.numberOfPeople = 0;
+            this.foodOrders = new List<IFood>();
+            this.drinkOrders = new List<IDrink>();
         }
 
         public int TableNumber { get; private set; }
@@ -62,82 +60,88 @@
 
         public bool IsReserved { get; private set; }
 
-        public decimal Price => this.PricePerPerson * this.numberOfPeople;
+        public decimal Price => this.numberOfPeople * this.PricePerPerson;
 
-        public void Clear()
+        public void Reserve(int numberOfPeople)
         {
-            this.orderedFoods.Clear();
-            this.orderedDrinks.Clear();
-            this.IsReserved = false;
-            this.numberOfPeople = 0;
-        }
-
-        public decimal GetBill()
-        {
-            decimal bill = this.orderedFoods.Sum(f => f.Price)
-                + this.orderedDrinks.Sum(d => d.Price)
-                + this.Price;
-
-            return bill;
-        }
-
-        public string GetFreeTableInfo()
-        {
-            var stringBuilder = new StringBuilder();
-            stringBuilder.AppendLine($"Table: {this.TableNumber}");
-            stringBuilder.AppendLine($"Type: {this.GetType().Name}");
-            stringBuilder.AppendLine($"Capacity: {this.Capacity}");
-            stringBuilder.AppendLine($"Price per Person: {this.PricePerPerson}");
-
-            return stringBuilder.ToString().TrimEnd();
-        }
-
-        public string GetOccupiedTableInfo()
-        {
-            var stringBuilder = new StringBuilder();
-            stringBuilder.AppendLine($"Table: {this.TableNumber}");
-            stringBuilder.AppendLine($"Type: {this.GetType().Name}");
-            stringBuilder.AppendLine($"Number of people: {this.NumberOfPeople}");
-
-            string foodOrders = this.orderedFoods.Count == 0
-                ? "None"
-                : this.orderedFoods.Count.ToString();
-
-            stringBuilder.AppendLine($"Food orders: {foodOrders}");
-
-            foreach (var food in this.orderedFoods)
-            {
-                stringBuilder.AppendLine(food.ToString());
-            }
-
-            string drinkOrders = this.orderedDrinks.Count == 0
-                 ? "None"
-                 : this.orderedDrinks.Count.ToString();
-
-            stringBuilder.AppendLine($"Drink orders: {drinkOrders}");
-
-            foreach (var drink in this.orderedDrinks)
-            {
-                stringBuilder.AppendLine(drink.ToString());
-            }
-
-            return stringBuilder.ToString().TrimEnd();
-        }
-
-        public void OrderDrink(IDrink drink)
-        {
-            this.orderedDrinks.Add(drink);
+            this.IsReserved = true;
+            this.NumberOfPeople = numberOfPeople;
         }
 
         public void OrderFood(IFood food)
         {
-            this.orderedFoods.Add(food);
+            this.foodOrders.Add(food);
         }
 
-        public void Reserve(int numberOfPeople)
+        public void OrderDrink(IDrink drink)
         {
-            this.NumberOfPeople = numberOfPeople;
-            this.IsReserved = true;
+            this.drinkOrders.Add(drink);
+        }
+
+        public decimal GetBill()
+        {
+            return this.foodOrders.Sum(f => f.Price) 
+                + this.drinkOrders.Sum(d => d.Price) 
+                + this.Price;
+        }
+
+        public void Clear()
+        {
+            this.foodOrders.Clear();
+            this.drinkOrders.Clear();
+            this.numberOfPeople = 0;
+            this.IsReserved = false;
+        }
+
+        public string GetFreeTableInfo()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"Table: {this.TableNumber}");
+            sb.AppendLine($"Type: {this.GetType().Name}");
+            sb.AppendLine($"Capacity: {this.Capacity}");
+            sb.AppendLine($"Price per Person: {this.PricePerPerson}");
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public string GetOccupiedTableInfo()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"Table: {this.TableNumber}");
+            sb.AppendLine($"Type: {this.GetType().Name}");
+            sb.AppendLine($"Number of people: {this.NumberOfPeople}");
+
+            if (!this.foodOrders.Any())
+            {
+                sb.AppendLine("Food orders: None");
+            }
+            else
+            {
+                sb.AppendLine($"Food orders: {this.foodOrders.Count}");
+            }
+
+            foreach (var food in this.foodOrders)
+            {
+                sb.AppendLine(food.ToString());
+            }
+
+            if (!this.drinkOrders.Any())
+            {
+                sb.AppendLine("Drink orders: None");
+            }
+            else
+            {
+                sb.AppendLine($"Drink orders: {this.drinkOrders.Count}");
+            }
+
+            foreach (var drink in this.drinkOrders)
+            {
+                sb.AppendLine(drink.ToString());
+            }
+
+            return sb.ToString().TrimEnd();
         }
     }
 }
