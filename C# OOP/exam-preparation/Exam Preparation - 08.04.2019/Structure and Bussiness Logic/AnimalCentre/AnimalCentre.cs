@@ -12,18 +12,24 @@
     public class AnimalCentre
     {
         private IHotel hotel;
-        private IProcedure chip = new Chip();
-        private IProcedure dentalCare = new DentalCare();
-        private IProcedure fitness = new Fitness();
-        private IProcedure nailTrim = new NailTrim();
-        private IProcedure play = new Play();
-        private IProcedure vaccinate = new Vaccinate();
-        private AnimalFactory animalFactory = new AnimalFactory();
+        private IProcedure chip;
+        private IProcedure dentalCare;
+        private IProcedure fitness;
+        private IProcedure nailTrim;
+        private IProcedure play;
+        private IProcedure vaccinate;
+        private AnimalFactory animalFactory;
         private Dictionary<string, List<string>> owners;
 
         public AnimalCentre()
         {
             this.hotel = new Hotel();
+            this.chip = new Chip();
+            this.dentalCare = new DentalCare();
+            this.fitness = new Fitness();
+            this.nailTrim = new NailTrim();
+            this.play = new Play();
+            this.vaccinate = new Vaccinate();
             this.animalFactory = new AnimalFactory();
             this.owners = new Dictionary<string, List<string>>();
         }

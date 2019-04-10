@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <ApplicationIcon />
+
+    <OutputType>Library</OutputType>
+
+    <StartupObject></StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nunit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.11.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarTrip\CarTrip.csproj" />
+  </ItemGroup>
+
+</Project>

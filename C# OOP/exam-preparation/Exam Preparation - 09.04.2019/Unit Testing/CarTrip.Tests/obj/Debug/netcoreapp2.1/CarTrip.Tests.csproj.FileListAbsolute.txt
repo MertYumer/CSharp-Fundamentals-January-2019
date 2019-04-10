@@ -1,0 +1,17 @@
+D:\Projects\New folder\CarTrip.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+D:\Projects\New folder\CarTrip.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+D:\Projects\New folder\CarTrip.Tests\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+D:\Projects\New folder\CarTrip.Tests\bin\Debug\netcoreapp2.1\CarTrip.Tests.deps.json
+D:\Projects\New folder\CarTrip.Tests\bin\Debug\netcoreapp2.1\CarTrip.Tests.runtimeconfig.json
+D:\Projects\New folder\CarTrip.Tests\bin\Debug\netcoreapp2.1\CarTrip.Tests.runtimeconfig.dev.json
+D:\Projects\New folder\CarTrip.Tests\bin\Debug\netcoreapp2.1\CarTrip.Tests.dll
+D:\Projects\New folder\CarTrip.Tests\bin\Debug\netcoreapp2.1\CarTrip.Tests.pdb
+D:\Projects\New folder\CarTrip.Tests\bin\Debug\netcoreapp2.1\CarTrip.dll
+D:\Projects\New folder\CarTrip.Tests\bin\Debug\netcoreapp2.1\CarTrip.pdb
+D:\Projects\New folder\CarTrip.Tests\obj\Debug\netcoreapp2.1\CarTrip.Tests.csprojAssemblyReference.cache
+D:\Projects\New folder\CarTrip.Tests\obj\Debug\netcoreapp2.1\CarTrip.Tests.csproj.CoreCompileInputs.cache
+D:\Projects\New folder\CarTrip.Tests\obj\Debug\netcoreapp2.1\CarTrip.Tests.AssemblyInfoInputs.cache
+D:\Projects\New folder\CarTrip.Tests\obj\Debug\netcoreapp2.1\CarTrip.Tests.AssemblyInfo.cs
+D:\Projects\New folder\CarTrip.Tests\obj\Debug\netcoreapp2.1\CarTrip.Tests.csproj.CopyComplete
+D:\Projects\New folder\CarTrip.Tests\obj\Debug\netcoreapp2.1\CarTrip.Tests.dll
+D:\Projects\New folder\CarTrip.Tests\obj\Debug\netcoreapp2.1\CarTrip.Tests.pdb

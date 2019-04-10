@@ -682,11 +682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\New folder\\AnimalCentre\\AnimalCentre.csproj",
+      "projectUniqueName": "D:\\Projects\\C# Fundamentals - January 2019\\C# OOP\\exam-preparation\\Exam Preparation - 08.04.2019\\Structure and Bussiness Logic\\AnimalCentre\\AnimalCentre.csproj",
       "projectName": "AnimalCentre",
-      "projectPath": "D:\\Projects\\New folder\\AnimalCentre\\AnimalCentre.csproj",
+      "projectPath": "D:\\Projects\\C# Fundamentals - January 2019\\C# OOP\\exam-preparation\\Exam Preparation - 08.04.2019\\Structure and Bussiness Logic\\AnimalCentre\\AnimalCentre.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\New folder\\AnimalCentre\\obj\\",
+      "outputPath": "D:\\Projects\\C# Fundamentals - January 2019\\C# OOP\\exam-preparation\\Exam Preparation - 08.04.2019\\Structure and Bussiness Logic\\AnimalCentre\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
