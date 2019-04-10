@@ -682,11 +682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\New folder\\SoftUniRestaurant\\SoftUniRestaurant.csproj",
+      "projectUniqueName": "D:\\Projects\\C# Fundamentals - January 2019\\C# OOP\\exam-preparation\\Exam Preparation - 09.04.2019\\Structure and Bussiness Logic\\SoftUniRestaurant.csproj",
       "projectName": "SoftUniRestaurant",
-      "projectPath": "D:\\Projects\\New folder\\SoftUniRestaurant\\SoftUniRestaurant.csproj",
+      "projectPath": "D:\\Projects\\C# Fundamentals - January 2019\\C# OOP\\exam-preparation\\Exam Preparation - 09.04.2019\\Structure and Bussiness Logic\\SoftUniRestaurant.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\New folder\\SoftUniRestaurant\\obj\\",
+      "outputPath": "D:\\Projects\\C# Fundamentals - January 2019\\C# OOP\\exam-preparation\\Exam Preparation - 09.04.2019\\Structure and Bussiness Logic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

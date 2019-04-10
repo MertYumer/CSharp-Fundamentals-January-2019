@@ -80,7 +80,7 @@
 
         public override string ToString()
         {
-            return $"{this.name} {this.brand}: {this.servingSize}ml - {this.price:f2}lv";
+            return $"{this.name} {this.brand} - {this.servingSize}ml - {this.price:f2}lv";
         }
     }
 }
