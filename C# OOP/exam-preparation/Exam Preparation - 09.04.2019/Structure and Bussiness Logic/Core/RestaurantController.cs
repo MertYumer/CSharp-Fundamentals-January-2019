@@ -14,58 +14,61 @@
         private List<IFood> menu;
         private List<IDrink> drinks;
         private List<ITable> tables;
-        private decimal income;
+        private decimal totalIncome;
 
         public RestaurantController()
         {
             this.menu = new List<IFood>();
             this.drinks = new List<IDrink>();
             this.tables = new List<ITable>();
-            this.income = 0;
+            this.totalIncome = 0;
         }
 
         public string AddFood(string type, string name, decimal price)
         {
-            this.menu.Add(FoodFactory.CreateFood(type, name, price));
+            IFood food = FoodFactory.CreateFood(type, name, price);
+            this.menu.Add(food);
 
             return $"Added {name} ({type}) with price {price:f2} to the pool";
         }
 
         public string AddDrink(string type, string name, int servingSize, string brand)
         {
-            this.drinks.Add(DrinkFactory.CreateDrink(type, name, servingSize, brand));
+            IDrink drink = DrinkFactory.CreateDrink(type, name, servingSize, brand);
+            this.drinks.Add(drink);
 
             return $"Added {name} ({brand}) to the drink pool";
         }
 
         public string AddTable(string type, int tableNumber, int capacity)
         {
-            this.tables.Add(TableFactory.CreateTable(type, tableNumber, capacity));
+            ITable table = TableFactory.CreateTable(type, tableNumber, capacity);
+            this.tables.Add(table);
 
             return $"Added table number {tableNumber} in the restaurant";
         }
 
         public string ReserveTable(int numberOfPeople)
         {
-            ITable freeTable = tables.FirstOrDefault(t => t.IsReserved == false && t.Capacity >= numberOfPeople);
+            var table = this.tables
+                .FirstOrDefault(t => !t.IsReserved && t.Capacity >= numberOfPeople);
 
-            if (freeTable == null)
+            if (table == null)
             {
                 return $"No available table for {numberOfPeople} people";
             }
 
             else
             {
-                freeTable.Reserve(numberOfPeople);
-
-                return $"Table {freeTable.TableNumber} has been reserved for {numberOfPeople} people";
+                table.Reserve(numberOfPeople);
+                return $"Table {table.TableNumber} has been reserved for {numberOfPeople} people";
             }
         }
 
         public string OrderFood(int tableNumber, string foodName)
         {
-            ITable table = this.tables.FirstOrDefault(t => t.TableNumber == tableNumber);
-            IFood food = this.menu.FirstOrDefault(f => f.Name == foodName);
+            var table = this.tables.FirstOrDefault(t => t.TableNumber == tableNumber);
+            var food = this.menu.FirstOrDefault(f => f.Name == foodName);
 
             if (table == null)
             {
@@ -86,8 +89,9 @@
 
         public string OrderDrink(int tableNumber, string drinkName, string drinkBrand)
         {
-            ITable table = this.tables.FirstOrDefault(t => t.TableNumber == tableNumber);
-            IDrink drink = this.drinks.FirstOrDefault(d => d.Name == drinkName && d.Brand == drinkBrand);
+            var table = this.tables.FirstOrDefault(t => t.TableNumber == tableNumber);
+            var drink = this.drinks
+                .FirstOrDefault(d => d.Brand == drinkBrand && d.Name == drinkName);
 
             if (table == null)
             {
@@ -102,17 +106,15 @@
             else
             {
                 table.OrderDrink(drink);
-
                 return $"Table {tableNumber} ordered {drinkName} {drinkBrand}";
             }
         }
 
         public string LeaveTable(int tableNumber)
         {
-            ITable table = this.tables.Find(t => t.TableNumber == tableNumber);
-
+            var table = this.tables.Find(t => t.TableNumber == tableNumber);
             decimal bill = table.GetBill();
-            this.income += bill;
+            this.totalIncome += bill;
             table.Clear();
 
             return $"Table: {tableNumber}{Environment.NewLine}Bill: {bill:f2}";
@@ -120,31 +122,31 @@
 
         public string GetFreeTablesInfo()
         {
-            StringBuilder sb = new StringBuilder();
+            var stringBuilder = new StringBuilder();
 
             foreach (var table in this.tables.Where(t => !t.IsReserved))
             {
-                sb.AppendLine(table.GetFreeTableInfo());
+                stringBuilder.AppendLine(table.GetFreeTableInfo());
             }
 
-            return sb.ToString().TrimEnd();
+            return stringBuilder.ToString().TrimEnd();
         }
 
         public string GetOccupiedTablesInfo()
         {
-            StringBuilder sb = new StringBuilder();
+            var stringBuilder = new StringBuilder();
 
             foreach (var table in this.tables.Where(t => t.IsReserved))
             {
-                sb.AppendLine(table.GetOccupiedTableInfo());
+                stringBuilder.AppendLine(table.GetOccupiedTableInfo());
             }
 
-            return sb.ToString().TrimEnd();
+            return stringBuilder.ToString().TrimEnd();
         }
 
         public string GetSummary()
         {
-            return $"Total income: {this.income:f2}lv";
+            return $"Total income: {this.totalIncome:f2}lv";
         }
     }
 }

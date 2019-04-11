@@ -2,7 +2,7 @@
 {
     using Contracts;
     using Drinks.Contracts;
-    using Foods.Contracts;
+    using Models.Foods.Contracts;
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -10,18 +10,20 @@
 
     public abstract class Table : ITable
     {
-        private int capacity;
-        private int numberOfPeople;
         private List<IFood> foodOrders;
         private List<IDrink> drinkOrders;
+        private int capacity;
+        private int numberOfPeople;
 
         public Table(int tableNumber, int capacity, decimal pricePerPerson)
         {
+            this.foodOrders = new List<IFood>();
+            this.drinkOrders = new List<IDrink>();
             this.TableNumber = tableNumber;
             this.Capacity = capacity;
             this.PricePerPerson = pricePerPerson;
-            this.foodOrders = new List<IFood>();
-            this.drinkOrders = new List<IDrink>();
+            this.IsReserved = false;
+            this.numberOfPeople = 0;
         }
 
         public int TableNumber { get; private set; }
@@ -60,37 +62,23 @@
 
         public bool IsReserved { get; private set; }
 
-        public decimal Price => this.numberOfPeople * this.PricePerPerson;
-
-        public void Reserve(int numberOfPeople)
-        {
-            this.IsReserved = true;
-            this.NumberOfPeople = numberOfPeople;
-        }
-
-        public void OrderFood(IFood food)
-        {
-            this.foodOrders.Add(food);
-        }
-
-        public void OrderDrink(IDrink drink)
-        {
-            this.drinkOrders.Add(drink);
-        }
-
-        public decimal GetBill()
-        {
-            return this.foodOrders.Sum(f => f.Price) 
-                + this.drinkOrders.Sum(d => d.Price) 
-                + this.Price;
-        }
+        public decimal Price => this.PricePerPerson * this.numberOfPeople;
 
         public void Clear()
         {
             this.foodOrders.Clear();
             this.drinkOrders.Clear();
-            this.numberOfPeople = 0;
             this.IsReserved = false;
+            this.numberOfPeople = 0;
+        }
+
+        public decimal GetBill()
+        {
+            decimal bill = this.foodOrders.Sum(f => f.Price)
+                + this.drinkOrders.Sum(d => d.Price)
+                + this.Price;
+
+            return bill;
         }
 
         public string GetFreeTableInfo()
@@ -142,6 +130,22 @@
             }
 
             return sb.ToString().TrimEnd();
+        }
+
+        public void OrderDrink(IDrink drink)
+        {
+            this.drinkOrders.Add(drink);
+        }
+
+        public void OrderFood(IFood food)
+        {
+            this.foodOrders.Add(food);
+        }
+
+        public void Reserve(int numberOfPeople)
+        {
+            this.IsReserved = true;
+            this.NumberOfPeople = numberOfPeople;
         }
     }
 }
